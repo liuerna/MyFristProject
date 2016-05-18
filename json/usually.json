@@ -1,0 +1,511 @@
+[
+  {
+    "id": "leftA",
+    "in": [
+      {
+        "class": "inA",
+        "href": "https://guang.taobao.com/?spm=a21bo.50862.201879-item-1002-links.1.ATiKVt&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+        "src": "images/aiguangjie.jpg"
+      },
+      {
+        "strong": "热门TOP"
+      },
+      {
+        "divClass": "innerA",
+        "divId": "innerA",
+        "inhref": [
+          {
+            "a": "https://guang.taobao.com/street/fushi.htm?spm=a21bo.50862.201879-item-1002-links.2.ATiKVt&catId=1&tagId=12103&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "span": "T恤","i": ""
+          },
+          {
+            "a": "https://guang.taobao.com/street/fushi.htm?spm=a21bo.50862.201879-item-1002-links.3.ATiKVt&catId=1&tagId=12117&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "span": "套装","i": ""
+          },
+          {
+            "a": "https://guang.taobao.com/street/fushi.htm?spm=a21bo.50862.201879-item-1002-links.4.ATiKVt&catId=1&tagId=12109&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "span": "连衣裙 ",
+            "i": "<i></i>"
+          },
+          {
+            "a": "https://guang.taobao.com/street/fushi.htm?spm=a21bo.50862.201879-item-1002-links.5.ATiKVt&catId=1&tagId=12041&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "span": "韩国东大门","i": ""
+          },
+          {
+            "a": "https://guang.taobao.com/street/fushi.htm?spm=a21bo.50862.201879-item-1002-links.6.ATiKVt&catId=1&tagId=11460&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "span": "显高瘦","i": ""
+          },
+          {
+            "a": "https://guang.taobao.com/street/fushi.htm?spm=a21bo.50862.201879-item-1002-links.7.ATiKVt&catId=1&tagId=12195&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "span": "短外套",
+            "i": "<i></i>"
+          },
+          {
+            "a": "https://guang.taobao.com/street/fushi.htm?spm=a21bo.50862.201879-item-1002-links.8.ATiKVt&catId=4&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "span": "包包","i": ""
+          },
+          {
+            "a": "https://guang.taobao.com/street/fushi.htm?spm=a21bo.50862.201879-item-1002-links.9.ATiKVt&catId=3&tagId=12086&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "span": "单鞋","i": ""
+          },
+          {
+            "a": "https://guang.taobao.com/street/meizhuang.htm?spm=a21bo.50862.201879-item-1002-links.10.ATiKVt&catId=7&tagId=12215&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "span": "学扎发",
+            "i": "<i></i>"
+          },
+          {
+            "a": "https://guang.taobao.com/street/fushi.htm?spm=a21bo.50862.201879-item-1002-links.11.ATiKVt&catId=1&tagId=11411&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "span": "衬衫","i": ""
+          },
+          {
+            "a": "https://guang.taobao.com/street/fushi.htm?spm=a21bo.50862.201879-item-1002-links.12.ATiKVt&catId=1&tagId=11473&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "span": "日系","i": ""
+          },
+          {
+            "a": "https://guang.taobao.com/street/jiaju.htm?spm=a21bo.50862.201879-item-1002-links.13.ATiKVt&catId=6&tagId=12402&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "span": "","i": ""
+          },
+          {
+            "a": "https://guang.taobao.com/street/jiaju.htm?spm=a21bo.50862.201879-item-1002-links.13.ATiKVt&catId=6&tagId=12402&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "span": "神器","i": ""
+          },
+          {
+            "a": "https://guang.taobao.com/street/jiaju.htm?spm=a21bo.50862.201879-item-1002-links.14.ATiKVt&catId=6&tagId=12423&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "span": "收纳","i": ""
+          },
+          {
+            "a": "https://guang.taobao.com/street/jiaju.htm?spm=a21bo.50862.201879-item-1002-links.15.ATiKVt&catId=6&tagId=12430&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "span": "懒人沙发","i": ""
+          }
+        ]
+      }
+    ],
+    "imgList": [
+      {
+        "topDiv": [
+          {
+            "href": "//guang.taobao.com/street/fushi.htm?spm=a21bo.50862.201879-item-1002.1.ATiKVt&catId=1&bizType=100201&itemId=525416644614&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "img": "images/topOne.jpg",
+            "span": "春夏新款"
+          },
+          {
+            "href": "//guang.taobao.com/street/fushi.htm?spm=a21bo.50862.201879-item-1002.2.ATiKVt&catId=3&bizType=100202&itemId=526561257123&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "img": "images/topOneT.jpg",
+            "span": "唯美春鞋"
+          },
+          {
+            "href": "https://guang.taobao.com/activity/index.htm?spm=a21bo.50862.201879-item-1002.3.ATiKVt&id=2565&topic=%E7%BB%8F%E6%B5%8E%E6%97%B6%E9%AB%A6%E6%AC%BE&cat_id=1&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "img": "images/topTwo.jpg",
+            "span": ""
+          },
+          {
+            "href": "https://guang.taobao.com/activity/index.htm?spm=a21bo.50862.201879-item-1002.3.ATiKVt&id=2565&topic=%E7%BB%8F%E6%B5%8E%E6%97%B6%E9%AB%A6%E6%AC%BE&cat_id=1&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "img": "images/topThree.jpg",
+            "span": ""
+          }
+        ]
+      },
+      {
+        "bottomDiv": [
+          {
+            "href": "https://guang.taobao.com/activity/index.htm?spm=a21bo.50862.201879-item-1002.5.ATiKVt&id=2560&topic=Acup&cat_id=1&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "img": "images/bottomOne.jpg",
+            "em": "精选",
+            "span": "平胸才是王道"
+          },
+          {
+            "href": "//guang.taobao.com/street/fushi.htm?spm=a21bo.50862.201879-item-1002.6.ATiKVt&catId=4&bizType=100203&itemId=521876342544&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "img": "images/bottomTwo.jpg",
+            "strong": "包包",
+            "em": "能治百病"
+          },
+          {
+            "href": "//guang.taobao.com/street/jiaju.htm?spm=a21bo.50862.201879-item-1002.7.ATiKVt&bizType=100204&itemId=525394538853&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "img": "images/bottomThree.jpg",
+            "strong": "创意家居",
+            "em": "干活不累"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "leftB",
+    "in": [
+      {
+        "class": "inA",
+        "href": "https://style.taobao.com/?spm=a21bo.50862.201879-item-1028-links.1.ATiKVt&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+        "src": "images/qiangdiao.jpg"
+      },
+      {
+        "strong": "热门TOP"
+      },
+      {
+        "divClass": "innerA",
+        "divId": "innerB",
+        "inhref": [
+          {
+            "a": "//www.taobao.com/markets/promotion/xiajixinyi?spm=a21bo.50862.201879-item-1028-links.2.ATiKVt&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "span": "夏新品","i":"<i></i>"
+          },
+          {
+            "a": "//list.taobao.com/itemlist/style.htm?spm=a21bo.50862.201879-item-1028-links.3.ATiKVt&sk=5382&cat=16&as=0&viewIndex=1&hd=1&atype=b&style=grid&q=%E9%A3%8E%E8%A1%A3&same_info=1&isnew=2&tid=0&_input_charset=utf-8&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "span": "风衣","i": ""
+          },
+          {
+            "a": "//list.taobao.com/itemlist/style.htm?spm=a21bo.50862.201879-item-1028-links.4.ATiKVt&sk=5382&cat=16&as=0&viewIndex=1&hd=1&atype=b&style=grid&q=T%E6%81%A4&same_info=1&isnew=2&tid=0&_input_charset=utf-8&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "span": "T恤 ",
+            "i": "<i></i>"
+          },
+          {
+            "a": "//list.taobao.com/itemlist/style.htm?spm=a21bo.50862.201879-item-1028-links.5.ATiKVt&sk=5382&cat=16&as=0&viewIndex=1&hd=1&atype=b&style=grid&q=%E5%A5%97%E8%A3%85&same_info=1&isnew=2&tid=0&_input_charset=utf-8&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "span": "套装","i": ""
+          },
+          {
+            "a": "//list.taobao.com/itemlist/style.htm?spm=a21bo.50862.201879-item-1028-links.6.ATiKVt&sk=5382&cat=16&as=0&viewIndex=1&hd=1&atype=b&style=grid&q=%E8%BF%9E%E8%A1%A3%E8%A3%99&same_info=1&isnew=2&tid=0&_input_charset=utf-8&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "span": "连衣裙 ","i": "<i></i>"
+          },
+          {
+            "a": "https://guang.taobao.com/street/fushi.htm?spm=a21bo.50862.201879-item-1002-links.7.ATiKVt&catId=1&tagId=12195&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000//list.taobao.com/itemlist/style.htm?spm=a21bo.50862.201879-item-1028-links.7.ATiKVt&sk=5382&cat=16&as=0&viewIndex=1&hd=1&atype=b&style=grid&q=%E8%A1%AC%E8%A1%AB&same_info=1&isnew=2&tid=0&_input_charset=utf-8&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "span": "衬衫","i": ""
+          },
+          {
+            "a": "//list.taobao.com/itemlist/style.htm?spm=a21bo.50862.201879-item-1028-links.8.ATiKVt&sk=5382&cat=16&as=0&viewIndex=1&atype=b&style=grid&q=%E7%89%9B%E4%BB%94%E8%A3%A4&same_info=1&tid=0&isnew=2&_input_charset=utf-8&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "span": "牛仔裤","i": ""
+          },
+          {
+            "a": "//list.taobao.com/itemlist/style.htm?spm=a21bo.50862.201879-item-1028-links.9.ATiKVt&sk=5382&cat=16&as=0&viewIndex=1&atype=b&style=grid&q=%E9%95%BF%E8%A3%99&same_info=1&tid=0&isnew=2&_input_charset=utf-8&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.1002003000000000200300000000",
+            "span": "长裙","i": ""
+          },
+          {
+            "a": "//list.taobao.com/itemlist/style.htm?spm=a21bo.50862.201879-item-1028-links.10.ATiKVt&sk=5382&cat=16&as=0&viewIndex=1&hd=1&atype=b&style=grid&q=%E5%8D%8A%E8%A3%99&same_info=1&isnew=2&tid=0&_input_charset=utf-8&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "span": "半裙","i": ""
+          },
+          {
+            "a": "//list.taobao.com/itemlist/style.htm?spm=a21bo.50862.201879-item-1028-links.11.ATiKVt&sk=5382&cat=16&as=0&viewIndex=1&hd=1&atype=b&style=grid&q=%E9%92%88%E7%BB%87%E6%AF%9B%E8%A1%A3&same_info=1&isnew=2&tid=0&_input_charset=utf-8&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "span": "针织衫","i": ""
+          },
+          {
+            "a": "//list.taobao.com/itemlist/style.htm?spm=a21bo.50862.201879-item-1028-links.12.ATiKVt&sk=5382&cat=16&as=0&viewIndex=1&hd=1&atype=b&style=grid&q=%E5%B0%8F%E8%A5%BF%E8%A3%85&same_info=1&isnew=2&tid=0&_input_charset=utf-8&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "span": "小西装","i": ""
+          },
+          {
+            "a": "//list.taobao.com/itemlist/style.htm?spm=a21bo.50862.201879-item-1028-links.13.ATiKVt&sk=5382&cat=16&as=0&viewIndex=1&hd=1&atype=b&style=grid&q=%E8%83%8C%E5%B8%A6%E8%A3%A4&same_info=1&isnew=2&tid=0&_input_charset=utf-8&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "span": "背带裤","i": ""
+          },
+          {
+            "a": "//list.taobao.com/itemlist/style.htm?spm=a21bo.50862.201879-item-1028-links.14.ATiKVt&sk=5382&cat=16&as=0&viewIndex=1&hd=1&atype=b&style=grid&q=%E7%9F%AD%E8%A3%A4&same_info=1&isnew=2&tid=0&_input_charset=utf-8&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "span": "短裤","i": ""
+          },
+          {
+            "a": "//list.taobao.com/itemlist/style.htm?spm=a21bo.50862.201879-item-1028-links.15.ATiKVt&sk=5382&cat=16&as=0&viewIndex=1&hd=1&atype=b&style=grid&q=%E5%8D%AB%E8%A1%A3&same_info=1&isnew=2&tid=0&_input_charset=utf-8&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "span": "卫衣","i": ""
+          },
+          {
+            "a": "//list.taobao.com/itemlist/style.htm?spm=a21bo.50862.201879-item-1028-links.16.ATiKVt&sk=5382&cat=16&as=0&viewIndex=1&hd=1&atype=b&style=grid&q=%E6%AF%9B%E8%A1%A3&same_info=1&isnew=2&tid=0&_input_charset=utf-8&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "span": "毛衣","i": " "
+          }
+        ]
+      }
+    ],
+    "imgList": [
+      {
+        "topDiv": [
+          {
+            "href": "//guang.taobao.com/street/fushi.htm?spm=a21bo.50862.201879-item-1002.2.ATiKVt&catId=3&bizType=100202&itemId=526561257123&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "img": "images/topOneT.jpg",
+            "span": "潮人挚爱"
+          },
+          {
+            "href": "//www.taobao.com/market/style/tongqin.php?spm=a21bo.50862.201879-item-1028.2.ATiKVt&bizType=102802&itemId=527478793489&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "img": "images/qiangdiao2.jpg",
+            "span": "时尚尖货"
+          },
+          {
+            "href": "//www.taobao.com/market/style/youxuandianpu.php?spm=a21bo.50862.201879-item-1028.3.ATiKVt&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "img": "images/qiangdiao3.jpg",
+            "span": ""
+          },
+          {
+            "href": "href=//style.taobao.com/?spm=a21bo.50862.201879-item-1028.4.ATiKVt&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "img": "images/qiangdiao5.jpg",
+            "span": ""
+          }
+        ]
+      },
+      {
+        "bottomDiv": [
+          {
+            "href": "//www.taobao.com/markets/nvzhuang/jichukuan?spm=a21bo.50862.201879-item-1028.5.ATiKVt&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "img": "images/qiangdiao6.jpg",
+            "em": "活动",
+            "span": "基础款穿出时髦"
+          },
+          {
+            "href": "//www.taobao.com/markets/style/jietouchaoren?spm=a21bo.50862.201879-item-1028.6.ATiKVt&bizType=102803&itemId=528183883460&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "img": "images/qiangdiao7.jpg",
+            "strong": "扮靓装扮",
+            "em": "夏季新品"
+          },
+          {
+            "href": "//www.taobao.com/markets/style/wenyi?spm=a21bo.50862.201879-item-1028.7.ATiKVt&bizType=102804&itemId=527468698271&pvid=d31b6854-596a-410c-b3fe-b720a6adc7ad&scm=1007.12802.31113.100200300000000",
+            "img": "images/qiangdiao8.jpg",
+            "strong": "学我穿搭",
+            "em": "热门推荐"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "leftC",
+    "in": [
+      {
+        "class": "inA",
+        "href": "https://www.jiyoujia.com/?spm=a21bo.50862.201879-item-1005-links.1.hyYU07&pvid=49ea2c3b-a022-4b14-b0c1-7d5174260f8f&scm=1007.12802.31039.100200300000000",
+        "src": "images/jiyoujia.jpg"
+      },
+      {
+        "strong": "热门TOP"
+      },
+      {
+        "divClass": "innerA",
+        "divId": "innerC",
+        "inhref": [
+          {
+            "a": "https://s.taobao.com/list?spm=a21bo.50862.201879-item-1005-links.2.hyYU07&source=youjia&q=%E6%B5%B4%E5%AE%A4%E6%9F%9C&sort=renqi-desc&pvid=49ea2c3b-a022-4b14-b0c1-7d5174260f8f&scm=1007.12802.31039.100200300000000",
+            "span": "浴室柜","i": "<i></i>"
+          },
+          {
+            "a": "https://s.taobao.com/list?spm=a21bo.50862.201879-item-1005-links.3.hyYU07&source=youjia&q=%E9%A9%AC%E6%A1%B6&sort=renqi-desc&pvid=49ea2c3b-a022-4b14-b0c1-7d5174260f8f&scm=1007.12802.31039.100200300000000",
+            "span": "马桶","i": ""
+          },
+          {
+            "a": "https://ghttps://s.taobao.com/list?spm=a21bo.50862.201879-item-1005-links.4.hyYU07&source=youjia&q=%E7%81%AF%E5%85%B7&pvid=49ea2c3b-a022-4b14-b0c1-7d5174260f8f&scm=1007.12802.31039.100200300000000",
+            "span": "美灯 ",
+            "i": ""
+          },
+          {
+            "a": "https://s.taobao.com/list?spm=a21bo.50862.201879-item-1005-links.5.hyYU07&source=youjia&q=%E5%A2%99%E7%BA%B8&sort=renqi-desc&pvid=49ea2c3b-a022-4b14-b0c1-7d5174260f8f&scm=1007.12802.31039.100200300000000",
+            "span": "墙纸","i": ""
+          },
+          {
+            "a": "https://s.taobao.com/list?spm=a21bo.50862.201879-item-1005-links.6.hyYU07&source=youjia&q=%E8%8A%B1%E6%B4%92&sort=renqi-desc&pvid=49ea2c3b-a022-4b14-b0c1-7d5174260f8f&scm=1007.12802.31039.100200300000000",
+            "span": "花洒","i": ""
+          },
+          {
+            "a": "https://s.taobao.com/list?spm=a21bo.50862.201879-item-1005-links.7.hyYU07&source=youjia&q=%E9%9B%86%E6%88%90%E5%90%8A%E9%A1%B6&sort=renqi-desc&pvid=49ea2c3b-a022-4b14-b0c1-7d5174260f8f&scm=1007.12802.31039.100200300000000",
+            "span": "吊顶",
+            "i": ""
+          },
+          {
+            "a": "https://youjia.taobao.com/n/construction/index?spm=a21bo.50862.201879-item-1005-links.8.hyYU07&pvid=49ea2c3b-a022-4b14-b0c1-7d5174260f8f&scm=1007.12802.31039.100200300000000",
+            "span": "装修","i": ""
+          },
+          {
+            "a": "https://s.taobao.com/list?spm=a21bo.50862.201879-item-1005-links.9.hyYU07&source=youjia&q=%E5%85%A8%E6%A3%89%E5%9B%9B%E4%BB%B6%E5%A5%97&pvid=49ea2c3b-a022-4b14-b0c1-7d5174260f8f&scm=1007.12802.31039.100200300000000",
+            "span": "全棉四件套","i": ""
+          },
+          {
+            "a": "https://s.taobao.com/list?spm=a21bo.50862.201879-item-1005-links.10.hyYU07&source=youjia&q=%E5%BA%8A&pvid=49ea2c3b-a022-4b14-b0c1-7d5174260f8f&scm=1007.12802.31039.100200300000000",
+            "span": "床",
+            "i": "<i></i>"
+          },
+          {
+            "a": "https://s.taobao.com/list?spm=a21bo.50862.201879-item-1005-links.11.hyYU07&source=youjia&q=%E6%B2%99%E5%8F%91&pvid=49ea2c3b-a022-4b14-b0c1-7d5174260f8f&scm=1007.12802.31039.100200300000000",
+            "span": "沙发","i": ""
+          },
+          {
+            "a": "https://s.taobao.com/list?spm=a21bo.50862.201879-item-1005-links.12.hyYU07&source=youjia&cat=56590032&pvid=49ea2c3b-a022-4b14-b0c1-7d5174260f8f&scm=1007.12802.31039.100200300000000",
+            "span": "原样创板","i":"<i><i/>"
+          },
+          {
+            "a": "https://s.taobao.com/list?spm=a21bo.50862.201879-item-1005-links.13.hyYU07&source=youjia&q=%E6%94%B6%E7%BA%B3%E7%AE%B1&pvid=49ea2c3b-a022-4b14-b0c1-7d5174260f8f&scm=1007.12802.31039.100200300000000",
+            "span": "收纳","i": ""
+          },
+          {
+            "a": "https://s.taobao.com/list?spm=a21bo.50862.201879-item-1005-links.14.hyYU07&source=youjia&q=%E6%A1%8C%E6%A4%85&pvid=49ea2c3b-a022-4b14-b0c1-7d5174260f8f&scm=1007.12802.31039.100200300000000",
+            "span": "桌椅","i": ""
+          },
+          {
+            "a": "https://s.taobao.com/list?spm=a21bo.50862.201879-item-1005-links.15.hyYU07&source=youjia&q=%E9%A4%90%E5%85%B7%E5%A5%97%E8%A3%85&pvid=49ea2c3b-a022-4b14-b0c1-7d5174260f8f&scm=1007.12802.31039.100200300000000",
+            "span": "餐具","i": ""
+          },
+          {
+            "a": "//s.taobao.com/list?spm=a21bo.50862.201879-item-1005-links.16.hyYU07&source=youjia&q=蚊帐&pvid=49ea2c3b-a022-4b14-b0c1-7d5174260f8f&scm=1007.12802.31039.100200300000000",
+            "span": "蚊帐","i": ""
+          },
+          {
+            "a": "//s.taobao.com/list?spm=a21bo.50862.201879-item-1005-links.17.hyYU07&source=youjia&q=凉席&pvid=49ea2c3b-a022-4b14-b0c1-7d5174260f8f&scm=1007.12802.31039.100200300000000",
+            "span": "凉席","i": ""
+          },
+          {
+            "a": "https://s.taobao.com/list?spm=a21bo.50862.201879-item-1005-links.18.hyYU07&source=youjia&q=%E8%AE%BE%E8%AE%A1%E5%AE%B6%E5%85%B7&pvid=49ea2c3b-a022-4b14-b0c1-7d5174260f8f&scm=1007.12802.31039.100200300000000",
+            "span": "家具","i": " "
+          }
+        ]
+      }
+    ],
+    "imgList": [
+      {
+        "topDiv": [
+          {
+            "href": "//www.taobao.com/markets/youjia/xiujia4yue?spm=a21bo.50862.201879-item-1005.7.hyYU07&pvid=49ea2c3b-a022-4b14-b0c1-7d5174260f8f&scm=1007.12802.31039.100200300000000",
+            "img": "images/jiyoujia7.jpg",
+            "span": "82平北欧小家 "
+          },
+          {
+            "href": "//youjia.taobao.com/n/pictures/list?spm=a21bo.50862.201879-item-1005.6.hyYU07&isLingan=false&pvid=49ea2c3b-a022-4b14-b0c1-7d5174260f8f&scm=1007.12802.31039.100200300000000",
+            "img": "images/jiyoujia6.jpg",
+            "span": "最受欢迎婚房"
+          },
+          {
+            "href": "https://www.taobao.com/markets/youjia/kantugou?spm=a21bo.50862.201879-item-1005.1.hyYU07&pvid=49ea2c3b-a022-4b14-b0c1-7d5174260f8f&scm=1007.12802.31039.100200300000000",
+            "img": "images/jiyoujia3.jpg",
+            "span": ""
+          },
+          {
+            "href": "https://www.jiyoujia.com/youjia/worthbuying/albumDetail?spm=a21bo.50862.201879-item-1005.2.hyYU07&pvid=49ea2c3b-a022-4b14-b0c1-7d5174260f8f&scm=1007.12802.31039.100200300000000#!id=156872&userid=1070877094",
+            "img": "images/jiyoujia4.jpg",
+            "span": ""
+          }
+        ]
+      },
+      {
+        "bottomDiv": [
+          {
+            "href": "//www.taobao.com/markets/wuyi/zxsj?spm=a21bo.50862.201879-item-1005.5.hyYU07&pvid=49ea2c3b-a022-4b14-b0c1-7d5174260f8f&scm=1007.12802.31039.100200300000000",
+            "img": "images/jiyoujia5.jpg",
+            "em": "活动",
+            "span": "五一装修大报价"
+          },
+          {
+            "href": "https://youjia.taobao.com/n/construction/index?spm=a21bo.50862.201879-item-1005.4.hyYU07&pvid=49ea2c3b-a022-4b14-b0c1-7d5174260f8f&scm=1007.12802.31039.100200300000000",
+            "img": "images/jiyoujia2.jpg",
+            "strong": "装修设计",
+            "em": "免费报价"
+          },
+          {
+            "href": "//youjia.taobao.com/youjia/worthbuying/list.htm?spm=a21bo.50862.201879-item-1005.3.hyYU07&bizType=100500&itemId=22285840168&pvid=49ea2c3b-a022-4b14-b0c1-7d5174260f8f&scm=1007.12802.31039.100200300000000#!currentPage=1&roleId=4&orderfields=modifyTime",
+            "img": "images/jiyoujia1.jpg",
+            "strong": "发现好物",
+            "em": "精致生活"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "leftD",
+    "in": [
+      {
+        "class": "inA",
+        "href": "//www.taobao.com/markets/cdj/index?spm=a21bo.50862.201879-item-1012-links.1.NXwZJz&pvid=d0ee3cdd-da18-4793-b588-d08db448cb2f&scm=1007.12802.31115.100200300000000",
+        "src": "images/chaodianjie.jpg"
+      },
+      {
+        "strong": "热门TOP"
+      },
+      {
+        "divClass": "innerA",
+        "divId": "innerD",
+        "inhref": [
+          {
+            "a": "https://s.taobao.com/search?spm=a21bo.50862.201879-item-1012-links.2.NXwZJz&q=iphone+6s&from_type=3c&app=detailproduct&pvid=d0ee3cdd-da18-4793-b588-d08db448cb2f&scm=1007.12802.31115.100200300000000",
+            "span": "iPhone 6s","i": ""
+          },
+          {
+            "a": "https://act-yun.taobao.com/market/yunos/smartsai9n80.php?spm=a21bo.50862.201879-item-1012-links.3.NXwZJz&pvid=d0ee3cdd-da18-4793-b588-d08db448cb2f&scm=1007.12802.31115.100200300000000",
+            "span": "看片神器","i": ""
+          },
+          {
+            "a": "https://www.taobao.com/market/3c/pchuawei.php?spm=a21bo.50862.201879-item-1012-links.4.NXwZJz&pvid=d0ee3cdd-da18-4793-b588-d08db448cb2f&scm=1007.12802.31115.100200300000000",
+            "span": "华为 ",
+            "i": ""
+          },
+          {
+            "a": "https://www.taobao.com/go/market/3c/citiao/ipad.php?spm=a21bo.50862.201879-item-1012-links.5.NXwZJz&pvid=d0ee3cdd-da18-4793-b588-d08db448cb2f&scm=1007.12802.31115.100200300000000",
+            "span": "iPad","i": ""
+          },
+          {
+            "a": "https://s.taobao.com/list?spm=a21bo.50862.201879-item-1012-links.6.NXwZJz&&q=美颜相机&seller_type=taobao&osfrom=luoyu&pvid=d0ee3cdd-da18-4793-b588-d08db448cb2f&scm=1007.12802.31115.100200300000000",
+            "span": "美颜相机","i": ""
+          },
+          {
+            "a": "https://s.taobao.com/list?spm=a21bo.50862.201879-item-1012-links.7.NXwZJz&q=蓝牙耳机&seller_type=taobao&osfrom=luoyu&pvid=d0ee3cdd-da18-4793-b588-d08db448cb2f&scm=1007.12802.31115.100200300000000",
+            "span": "蓝牙耳机",
+            "i": ""
+          },
+          {
+            "a": "https://www.taobao.com/go/market/jiadian/citiao/tixudao.php?spm=a21bo.50862.201879-item-1012-links.8.NXwZJz&pvid=d0ee3cdd-da18-4793-b588-d08db448cb2f&scm=1007.12802.31115.100200300000000",
+            "span": "剃须刀","i": ""
+          },
+          {
+            "a": "https://s.taobao.com/list?spm=a21bo.50862.201879-item-1012-links.9.NXwZJz&q=空气净化&style=grid&seller_type=taobao&pvid=d0ee3cdd-da18-4793-b588-d08db448cb2f&scm=1007.12802.31115.100200300000000",
+            "span": "空气净化","i": ""
+          },
+          {
+            "a": "https://s.taobao.com/list?spm=a21bo.50862.201879-item-1012-links.10.NXwZJz&q=电火锅&style=grid&seller_type=taobao&pvid=d0ee3cdd-da18-4793-b588-d08db448cb2f&scm=1007.12802.31115.100200300000000",
+            "span": "电火锅",
+            "i": ""
+          },
+          {
+            "a": "https://s.taobao.com/list?spm=a21bo.50862.201879-item-1012-links.11.NXwZJz&q=儿童手表&seller_type=taobao&osfrom=luoyu&from_type=3c&pvid=d0ee3cdd-da18-4793-b588-d08db448cb2f&scm=1007.12802.31115.100200300000000",
+            "span": "儿童手表","i": " "
+          },
+          {
+            "a": "https://s.taobao.com/list?spm=a21bo.50862.201879-item-1012-links.12.NXwZJz&q=体感游戏&seller_type=taobao&osfrom=luoyu&pvid=d0ee3cdd-da18-4793-b588-d08db448cb2f&scm=1007.12802.31115.100200300000000",
+            "span": "体感游戏","i": " "
+          }
+    ]}],
+    "imgList": [
+      {
+        "topDiv": [
+          {
+            "href": "//www.taobao.com/markets/cdj/index?spm=a21bo.50862.201879-item-1012.6.NXwZJz&pvid=d0ee3cdd-da18-4793-b588-d08db448cb2f&scm=1007.12802.31115.100200300000000#cdj_xinchao",
+            "img": "images/chaodianjie1.jpg",
+            "span": "虚拟触控投影仪"
+          },
+          {
+            "href": "//www.taobao.com/markets/cdj/album?spm=a21bo.50862.201879-item-1012.7.NXwZJz&pvid=d0ee3cdd-da18-4793-b588-d08db448cb2f&scm=1007.12802.31115.100200300000000",
+            "img": "images/chaodianjie2.jpg",
+            "span": "黑科技拯救世界"
+          },
+          {
+            "href": "//www.taobao.com/markets/cdj/index?spm=a21bo.50862.201879-item-1012.1.NXwZJz&pvid=d0ee3cdd-da18-4793-b588-d08db448cb2f&scm=1007.12802.31115.100200300000000#cdj_faxian",
+            "img": "images/chaodianjie3.jpg",
+            "span": ""
+          },
+          {
+            "href": "//www.taobao.com/markets/cdj/flashsale?spm=a21bo.50862.201879-item-1012.2.NXwZJz&pvid=d0ee3cdd-da18-4793-b588-d08db448cb2f&scm=1007.12802.31115.100200300000000",
+            "img": "images/chaodianjie4.jpg",
+            "span": ""
+          }
+        ]
+      },
+      {
+        "bottomDiv": [
+          {
+            "href": "https://www.taobao.com/markets/promotion/taodan_cdj?spm=a21bo.50862.201879-item-1012.5.NXwZJz&pvid=d0ee3cdd-da18-4793-b588-d08db448cb2f&scm=1007.12802.31115.100200300000000",
+            "img": "images/chaodianjie5.jpg",
+            "em": "活动",
+            "span": "潮玩狂欢"
+          },
+          {
+            "href": "//www.taobao.com/markets/cdj/index?spm=a21bo.50862.201879-item-1012.3.NXwZJz&bizType=101200&itemId=520518184683&pvid=d0ee3cdd-da18-4793-b588-d08db448cb2f&scm=1007.12802.31115.100200300000000#cdj_faxian",
+            "img": "images/chaodianjie6.jpg",
+            "strong": "今有潮电",
+            "em": "等你来看"
+          },
+          {
+            "href": "//3c.taobao.com/cdj/album.htm?spm=a21bo.50862.201879-item-1012.4.NXwZJz&id=137675&pvid=d0ee3cdd-da18-4793-b588-d08db448cb2f&scm=1007.12802.31115.100200300000000",
+            "img": "images/chaodianjie7.jpg",
+            "strong": "平衡车",
+            "em": "酷炫来袭"
+          }
+        ]
+      }
+    ]
+  }
+
+]

@@ -1,0 +1,3443 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol,dl,li,dt,dd{
+    list-style: none;
+}
+form,input,textarea,select,option{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+img,input,table{
+    border: none;
+    vertical-align: middle;
+}
+input{
+    outline: none;
+}
+.clear{
+    clear: both;
+    height: 0;
+    line-height: 0;
+}
+a{
+    display: inline-block;
+}
+a,a:hover,a:active,a:visited,a:target{
+    text-decoration: none;
+    text-underline: none;
+}
+
+.centerBox{
+    width: 1102px;
+    margin: 0 auto;}
+.clear{
+    clear: both;
+
+}
+body{
+    background: #f5f5f5;
+}
+/*body{*/
+    /*background: #F5F5F5;*/
+/*}*/
+/*globle css */
+.banner{
+    z-index: 1;
+    width: 100%;
+    height: 35px;
+    background: #f5f5f5;
+    border-bottom: 1px solid #eeeeee;
+}
+.div1{
+    border: 1px solid transparent;
+    float: left;
+    width: 100%;
+    height:35px;
+    /*background-color: #eee;*/
+}
+.centerBox{
+    position: relative;
+    /*overflow: hidden;*/
+    width: 1190px;
+    min-width: 1190px;
+    /*border: 1px solid blueviolet;*/
+    font-size: 12px;
+    height:100%;
+}
+.centerBox .Hui-iconfont{
+    color: #c0bed2;
+}
+.centerBox a {
+    color:#6C6C6C;
+    font-size: 12px;
+    line-height: 35px;
+    text-decoration: none;
+}
+
+.centerBox a.a1{
+      color: #f22e00!important;
+      font-size: 12px;
+      line-height: 35px;
+      padding-left: 6px;
+      padding-right: 8px;
+      text-decoration: none;
+  }
+.centerBox  a.a2:hover,.centerBox  a.a3:hover{
+    color: #f22e00!important;
+}
+.centerBox a.a3,.centerBox a.a2{
+    margin-left: 20px;
+    text-decoration: none;
+}
+.centerBox div{
+    float: left;
+}
+.centerBox .div1{
+    float:right;
+    width: 600px;
+    height: 35px;
+    line-height: 35px;
+    /*border: 1px solid black;*/
+}
+
+.centerBox .p1{
+    border: 1px solid transparent;
+    position: relative;
+
+}
+.centerBox .p1 p{
+    padding-left: 5px;
+    width:78px ;
+    height: 35px;
+    cursor: pointer;
+}
+.centerBox .p1 .tb:hover{
+    color: #F40;
+}
+.centerBox .p1 .in1 p:hover{
+    color: black;
+    background-color: #F5F5F5;
+}
+.centerBox .div1 .in1{
+    z-index: 10;
+    background: white;
+    display: none;
+    position: absolute;
+    top:35px;
+    left: 0;
+    width: 83px;
+    height: 74px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.centerBox .div1 .l:hover .in1{
+  display: block;
+}
+.centerBox .div1 .l:hover .p1{
+    background: white;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.centerBox .div1  .car{
+    border: 1px solid transparent;
+    width: 84px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    cursor: pointer;
+}
+.centerBox .div1  .car .Hui-iconfont{
+   color: #f40;
+}
+.centerBox .div1  .car .Hui-iconfont.a{
+    color: #c0bed2;
+}
+.centerBox .div1  .car:hover{
+    color: #F40;
+}
+.centerBox .div1 .l .p1.sale{
+    border: 1px solid transparent;
+    width: 78px;
+}
+.centerBox .div1 .l .p1.sale .in1{
+    width: 84px;
+    height: 151px;
+}
+.centerBox .div1 .l .p1.sale .in1 p{
+    height: 28px;
+    line-height: 28px;
+}
+.centerBox .div1 .l .p1.leader {
+    width:91px;
+}
+.centerBox .div1 .l .p1.leader .Hui-iconfont{
+    color: #f40;
+}
+.centerBox .div1 .l .p1.leader .in1{
+    /*display: block;*/
+    left: -1097px;
+    margin: 0 auto;
+    width: 1187px;
+    height: 370px;
+}
+.centerBox .div1 .l .p1.leader .in1 .name{
+   width: 296px;
+    height: 310px;
+    border-right: 1px solid #cccccc;
+}
+.centerBox .div1 .l .p1.leader .in1 .name p{
+    padding-left: 10px;
+    font-size: 16px;
+    color: #fc4200;
+    font-weight: 600;
+}
+.centerBox .div1 .l .p1.leader .in1 .name .ul1 li{
+    position: relative;
+    overflow: hidden;
+    float: left;
+    padding-top: 5px;
+    height: 25px;
+    width: 24%;
+}
+.centerBox .div1 .l .p1.leader .in1 .name .ul1 i{
+    position: absolute;
+    top: 0;
+    right:29px;
+    display: block;
+    width: 9px;
+    height: 14px;
+}
+.centerBox .div1 .l .p1.leader .in1 .name.kind .ul1 i{
+    position: absolute;
+    top: 0;
+    right:28px;
+    display: block;
+    width: 9px;
+    height: 14px;
+}
+
+.centerBox .div1 .l .p1.leader .in1 .name.app .ul1 i.hot{
+    position: absolute;
+    top: 0;
+    right:45px;
+    display: block;
+    width: 9px;
+    height: 14px;
+}
+.centerBox .div1 .l .p1.leader .in1 .name.tell .ul1 i.hot{
+    position: absolute;
+    top: 0;
+    right:90px;
+    display: block;
+    width: 9px;
+    height: 14px;
+}
+.centerBox .div1 .l .p1.leader .in1 .name.app .ul1 i.new{
+    position: absolute;
+    top: 0;
+    right:20px;
+    display: block;
+    width: 9px;
+    height: 14px;
+}
+.centerBox .div1 .l .p1.leader .in1 .name .ul1 i.hot{
+     background: url("../images/hot.gif") no-repeat center ;
+ }
+.centerBox .div1 .l .p1.leader .in1 .name .ul1 i.new{
+    background: url("../images/n.gif") no-repeat center ;
+}
+.centerBox .div1 .l .p1.leader .in1 .name  p{
+    cursor: inherit;
+    font-size: 16px;
+    font-weight: 600;
+}
+.centerBox .div1 .l .p1.leader .in1 .name  p:hover{
+    background-color: white;
+}
+.centerBox .div1 .l .p1.leader .in1 .name .ul1 li a{
+    text-decoration: none;
+    display:inline-block;
+    position: relative;
+    float: left;
+    border-radius: 5px;
+    margin: 0 2px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    padding:0 8px;
+}
+
+.centerBox .div1 .l .p1.leader .in1 .name .ul1 li:hover a{
+    color: white;
+    background-color: red;
+}
+.centerBox .div1 .l .p1.leader .in1 .name.kind{
+    width: 299px;
+    height: 370px;
+
+}
+.centerBox .div1 .l .p1.leader .in1 .name.kind li{
+    width: 30%;
+}
+.centerBox .div1 .l .p1.leader .in1 .name.kind p{
+    color:#9fb838;
+}
+.centerBox .div1 .l .p1.leader .in1 .name.kind li:hover a{
+    background-color: #9fb838;
+}
+.centerBox .div1 .l .p1.leader .in1 .name.app{
+    width: 293px;
+    height: 225px;
+}
+.centerBox .div1 .l .p1.leader .in1 .name.app li{
+    width: 30%;
+}
+.centerBox .div1 .l .p1.leader .in1 .name.app p{
+    color:#d75696;
+}
+.centerBox .div1 .l .p1.leader .in1 .name.app li:hover a{
+    background-color: #d75696;
+}
+.centerBox .div1 .l .p1.leader .in1 .name.tell{
+    height: 225px;
+    width: 295px;
+    border-right: none;
+}
+.centerBox .div1 .l .p1.leader .in1 .name.tell li{
+    width: 50%;
+}
+.centerBox .div1 .l .p1.leader .in1 .name.tell p{
+    width: 100px;
+    color:#2e9fdb;
+}
+.centerBox .div1 .l .p1.leader .in1 .name.tell li:hover a{
+    background-color: #2e9fdb;
+}
+.box1{
+    position: relative;
+    width: 100%;
+    height: 165px;
+    background: #FFFFFF;
+}
+.box1 .centerBox{
+    height: 165px;
+    overflow: inherit;
+}
+.box1In{
+    margin-top: 30px;
+    width: 100%;
+    min-width: 1190px;
+    height: 90px;
+}
+.box1In .logo{
+    width: 236px;
+    height:110px;
+    position: relative;
+    left: -23px;
+    z-index: 1;
+    background:url("../images/logo1.gif")no-repeat center;
+    cursor: pointer;
+}
+.box1In .center1{
+    margin-left: 30px;
+    width: 625px;
+    height: 90px;
+    /*border: 1px solid red ;*/
+}
+.box1In .center1 .top1{
+    width: 625px;
+    height: 25px;
+}
+.box1In .center1 .top1 li{
+    float: left;
+    width: 50px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-select: none;
+}
+.box1In .center1 .top1 li.on{
+    background: #FF5400;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+}
+.box1In .center1 .middle{
+    position: relative;
+    width: 619px;
+    height: 34px;
+    border: 3px solid  #FF5400;
+}
+.box1In .center1 .middle .inp{
+    width: 427px;
+    height: 34px;
+}
+.box1In .center1 .middle .inp input{
+    width: 100%;
+    height: 100%;
+    padding-left: 30px;
+}
+.box1In .center1 .middle .inp1{
+    width:106px;
+    height: 34px;
+    background:#FF5400 ;
+    float: right;
+}
+.box1In .center1 .middle .inp1 input{
+    width: 100%;
+    height: 100%;
+    background:#FF5400;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.box1 .inputTop{
+    display: none;
+    position: absolute;
+    top: -37px;
+    left: 0;
+    width: 100%;
+    min-width: 1190px;
+    height: 49px;
+    border-top: 1px solid #aaaaab;
+    padding: 8px 0 6px 0 ;
+    background: white;
+    z-index: 20;
+}
+.box1 .inputTop .taobaologo{
+    width: 88px;
+    height: 33px;
+    position: absolute;
+    margin: 6px 0 0 76px;
+    cursor: pointer;
+}
+.box1 .inputTop .taobaologo img{
+    width: 88px;
+    height: 33px;
+
+}
+.box1 .inputTop .middle{
+    position: relative;
+    width: 619px;
+    height: 34px;
+    border: 3px solid  #FF5400;
+    margin: 0 auto ;
+}
+.box1 .inputTop .middle .inp{
+    width: 427px;
+    height: 34px;
+}
+.box1 .inputTop .middle .inp input{
+    width: 100%;
+    height: 100%;
+    padding-left: 78px;
+}
+.box1 .inputTop .middle .inp1{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width:106px;
+    height: 34px;
+    background:#FF5400 ;
+    float: right;
+}
+.box1 .inputTop .middle .inp1 input{
+    width: 100%;
+    height: 100%;
+    background:#FF5400;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.box1 .inputTop .middle .inp2{
+    position: absolute;
+    top: 0;
+     left: 0;
+    width:72px;
+    height: 32px;
+    border: 1px solid #e5e5e5;
+    float: right;
+
+
+}
+.box1 .inputTop .middle .inp2 input{
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    cursor: pointer;
+    background: #f6f6f6;
+}
+.box1 .inputTop .middle .inp2  div{
+    display: none;
+    width:75px ;
+    height: 46px;
+
+}
+.box1 .inputTop .middle .inp2  div a{
+    display: block;
+    width: 75px;
+    height: 23px;
+    line-height: 23px;
+    color: #F40;
+    text-decoration: none;
+    text-align: center;
+    background: #f6f6f6;
+}
+/*--------------------------------------------------*/
+.box1In .find{
+    display: block;
+    height: 24px;
+    width: 30px;
+    position: absolute;
+    top: 0;
+    right: -40px;
+}
+.box1In .find:hover{
+    cursor: pointer;
+    color: #FF5400;
+}
+.box1In .center1 .middle .search{
+    width: 625px;
+    height: 25px;
+}
+.box1In .center1 .middle .search a{
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 2px;
+}
+.box1In .center1 .middle .search a.on{
+    color:#FF5400 ;
+}
+.box1In .center1 .middle .search a.on1{
+    float: right;
+}
+.box1In .center1 .middle .search a.on1:hover{
+    color: #F40!important;
+}
+.box1In .center1 .ewm{
+    width: 115px;
+    height: 114px;
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+.box1In .center1 .ewm .close{
+    position: absolute;
+    top: 0;
+    left: -19px;
+    display: block;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ccc;
+    background: url("../images/close1.png")no-repeat;
+    cursor: pointer;
+}
+.box1In .center1 .ewm .close:hover{
+    background: url("../images/close2.png")no-repeat;
+}
+.box1In .center1 .ewm div{
+    width: 96px;
+    height: 114px;
+    border:1px solid #ccc;
+}
+.box1In .center1 .ewm div img{
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin-left: 8px;
+}
+.box1In .center1 .ewm div span{
+    display: block;
+    width: 48px;
+    height: 20px;
+    margin: 4px auto 0 ;
+    cursor: pointer;
+    color:#F40!important;
+}
+.box1 .bottom{
+    overflow: hidden;
+    position: absolute;
+    top: 134px;
+    left: 210px;
+    font-size: 16px;
+    color:#F40 ;
+    width: 990px;
+    height:34px ;
+    line-height: 28px;
+    /*border: 1px solid blue;*/
+    float: right;
+}
+.box1 .bottom  .in{
+    font-weight: 700;
+    padding: 0 5px;
+}
+.box1 .bottom ul{
+    float: left;
+}
+.box1 .bottom ul li{
+    font-weight: 700;
+    padding: 0 5px;
+    margin-left: 5px;
+}
+.box1 .bottom ul li:hover{
+    color: white;
+    font-weight: 700;
+    background: #F40;
+    border-radius: 10px;
+}
+
+.box1 .bottom .ul1{
+    width: 218px;
+    height: 30px;
+}
+.box1 .bottom .ul1 li{
+    float: left;
+    height: 28px;
+    cursor: pointer;
+}
+.box1 .bottom .ul2{
+    width: 365px;
+    height: 30px;
+}
+.box1 .bottom .ul2 li,.box1 .bottom .ul3 li{
+    float: left;
+    height: 28px;
+    color: #3c3c3c;
+    cursor: pointer;
+    font-size: 14px;
+}
+.box1 .bottom .ul3{
+    width: 250px;
+    height: 30px;
+}
+.box1 .ul1:after,.box1 .ul2:after{
+    content: "|";
+    color: #ddd;
+    -webkit-user-select: none;
+    margin-left: 10px;
+}
+
+.box1:after{
+    content: "";
+    clear: both;
+}
+.box2{
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background: #f5f5f5;
+}
+.box2 .centerBox{
+    width: 1190px;
+    min-width: 1190px;
+    height: inherit;
+    /*overflow: hidden;*/
+}
+.box2 .centerBox .i1{
+    height: 533px;
+    width: 725px;
+}
+.box2 .centerBox .left{
+    position: absolute;
+    top: -25px;
+    left:0;
+    z-index: 1;
+    width: 189px;
+    height: 556px;
+    /*border: 1px solid blue;*/
+    float: left;
+}
+.box2 .centerBox .left .left1{
+    width: 190px;
+    height: 516px;
+    background: #ff6537;
+}
+.box2 .centerBox .left .left1 h3{
+    cursor: pointer;
+    position: relative;
+    width: 180px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    color: white;
+    padding-left: 10px;
+}
+.box2 .centerBox .left .left1 h3 i{
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 26px ;
+    height: 33px;
+    color: white;
+}
+
+.box2 .centerBox .left .left2{
+    width: 190px;
+    height: 40px;
+}
+.box2 .centerBox .left .left2 img{
+    display: block;
+    width: 190px;
+    height: 40px;
+}
+#jsonList li{
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: 27px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+#jsonList li span{
+    position: absolute;
+    top: 0;
+    right:12px;
+    display: block;
+    width: 12px;
+    height: 30px;
+}
+#jsonList li div{
+    position: absolute;
+    top: 0;
+   left:162px;
+    width: 714px;
+    height: 522px;
+    border:2px solid red ;
+}
+
+/*--------------------banner1------begin--------------  */
+
+.box2 .centerBox .banner{
+    position: absolute;
+    top: 0;
+    left: 202px;
+    width: 520px;
+    height:290px;
+    /*border: 1px solid blueviolet;*/
+}
+.box2 .centerBox .banner .bannerInner{
+    width: 100%;
+    height:100%;
+    background: url("../images/defalt.gif")no-repeat center;
+}
+.box2 .centerBox .banner .bannerInner div{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    height:100%;
+    z-index: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.box2 .centerBox .banner .bannerInner img{
+    width: 100%;
+    height:100%;
+    display: none;
+}
+.box2 .centerBox .banner .bannerTip{
+    z-index: 5;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    width: 65px;
+    height: 13px;
+    border-radius: 5px;
+    opacity: 0.5;
+    background: rgba(255,255,255,.3);
+
+}
+.box2 .centerBox .banner .bannerTip li{
+    float: left;
+    width: 9px;
+    height:9px;
+    line-height: 13px;
+    border-radius: 50%;
+    background:#B7B7B7;
+    cursor: pointer;
+    margin: 2px ;
+
+
+}
+.box2 .centerBox .banner .bannerTip li.bg{
+    background:#F40;
+}
+
+.box2 .centerBox .banner a {
+    display: none;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    margin-top: -18px;
+    width: 25px;
+    height: 36px;
+    background: url("../images/pre.png") center ;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.box2 .centerBox .banner a:hover{
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.box2 .centerBox .banner .bannerLeft {
+    left: 20px;
+    background-position: 0 49px;
+}
+.box2 .centerBox .banner .bannerRight {
+    right: 20px;
+    background-position: -50px 49px;
+}
+.box2 .centerBox .loadF{
+    cursor: pointer;
+    float: right;
+    position: absolute;
+    top: 10px;
+    right: 296px;
+    width: 160px;
+    height: 280px;
+    background: url("../images/defalt.gif")no-repeat center;
+}
+.box2 .centerBox .loadF  img{
+    width: 100%;
+    height: 100%;
+    /*display: none;*/
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+/*---------------member-----------------------------*/
+.box2 .centerBox .member{
+
+    float: right;
+    width: 290px;
+    height: 168px;
+    /*border: 1px solid black;*/
+    background-color: white;
+    margin-top: 10px;
+
+}
+.box2 .centerBox .member div{
+    width: 290px;
+    height: 168px;
+    position: relative;
+    background: url("../images/memberBg.jpg") no-repeat ;
+}
+.box2 .centerBox .member  div img{
+    position: absolute;
+     top: 24px;
+    left: 50%;
+    margin-left: -30px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.box2 .centerBox .member  div span{
+    color: #3C3C3C;
+    font-weight: 400;
+    display: block;
+    position: absolute;
+    top: 84px;
+    left: 50%;
+    margin-left: -20px;
+}
+.box2 .centerBox .member  div  .tjb{
+    width: 268px;
+    height: 20px;
+    position:absolute;
+    bottom: 40px;
+    left:20px;
+    /*border: 1px solid red ;*/
+}
+.box2 .centerBox .member  div  .tjb a{
+    display: block;
+    cursor: pointer;
+    color:#F40!important;
+    text-decoration: none;
+}
+.box2 .centerBox .member  div  .tjb span{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../images/gold.png")no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 2px;
+    left: 60px;
+}
+.box2 .centerBox .member  div  .tjb i{
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    font-style: inherit;
+    padding-left: 60px;
+}
+.box2 .centerBox .member  div  .tjb em{
+  color: #3C3C3C;
+    height: 20px;
+    line-height: 20px;
+  position: absolute;
+    top: 0;
+    left: 135px;
+}
+.box2 .centerBox .member  div  .tjb .vip{
+    display: block;
+    position: absolute;
+    right:45px;
+    top: 0;
+    height: 20px;
+    line-height: 20px;
+}
+.box2 .centerBox .member  div ul{
+    width: 268px;
+    height: 25px;
+    /*border: 1px solid red;*/
+    position: absolute;
+    bottom:15px;
+    left: 15px;
+}
+.box2 .centerBox .member  div ul li,.box2 .centerBox .member  div ul li a{
+    float: left;
+    width: 75px;
+    height: 25px;
+    margin-right: 7px;
+}
+.box2 .centerBox .member  div ul li.denglu{
+    display: block;
+    width: 95px;
+    background: #F22D00;
+}
+.box2 .centerBox .member  div ul li a.denglu{
+    display: block;
+    width: 95px;
+    background: #F22D00;
+}
+.box2 .centerBox .member  div ul li a{
+    background: #f40;
+    text-align: center;
+    line-height: 25px;
+    font-weight: 700;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+.box2 .centerBox .member  div ul  a:hover{
+    background: #F22D00;
+    cursor: pointer;
+}
+/*---------------notice-----------------------------*/
+.box2 .centerBox .notice{
+    width: 290px;
+    height: 109px;
+    border: 1px solid greenyellow;
+    float: right;
+    background: white;
+}
+.box2 .centerBox .notice #notice {
+    width: 290px;
+    height: 109px;
+    background: url("../images/defalt.gif")no-repeat center;
+    overflow: hidden;
+}
+.box2 .centerBox .notice #notice ul{
+    width: 294px;
+    height: 24px;
+    padding: 5px 8px;
+    text-align: center;
+    background: white;
+
+}
+.box2 .centerBox .notice #notice #liBox li {
+    width: 39px;
+    height: 24px;
+    float:left ;
+    margin: 0 8px ;
+    display: inline-block;
+}
+.box2 .centerBox .notice #notice #liBox li a{
+    text-decoration: none;
+}
+.box2 .centerBox .notice #notice{
+    position: relative;
+}
+.box2 .centerBox .notice #notice div{
+    background: white;
+    position: absolute;
+    top: 35px;
+    left: 0;
+}
+
+.box2 .centerBox .notice #notice div li{
+    display: inline-block;
+    float: left;
+}
+
+.box2 .centerBox .notice #notice div a{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-left: 15px;
+    line-height: 30px;
+}
+.box2 .centerBox .notice #notice div{
+    display: none;
+}
+.box2 .centerBox .notice #notice div.select{
+    display: block;
+}
+.box2 .centerBox .notice #notice div a:hover,.box2 .centerBox .notice #notice div a.on{
+    color: #F40!important;
+}
+.box2 .centerBox .notice #notice li.select{
+    color:#F40;
+    font-weight: 700;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #f40;
+}
+/*--------------------------------model-----------------------------*/
+.box2 .centerBox .model{
+    width: 290px;
+    height: 201px;
+    float: right;
+    margin-top: 2px;
+}
+.box2 .centerBox .model #model{
+    position: relative;
+    width: 290px;
+    height: 201px;
+}
+.box2 .centerBox .model #modelOne{
+    width: 300px;
+    height:69px;
+}
+.box2 .centerBox .model #modelOne ul{
+    position: relative;
+    top: -1px;
+    width: 293px;
+    height: 69px;
+    z-index: 3;
+}
+.box2 .centerBox .model #modelOne ul li{
+    float: left;
+    width: 70px;
+    height: 69px;
+    margin-right:3px ;
+    background: white;
+    position: relative;
+}
+.box2 .centerBox .model #modelOne ul li img{
+    display: block;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 11px;
+    left: 50%;
+    margin-left: -12px;
+}
+.box2 .centerBox .model #modelOne ul li p{
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    margin-left: -14px;
+}
+.box2 .centerBox .model #modelOne ul li:hover p{
+    color:#F40;
+}
+.box2 .centerBox .model #modelOne ul li.select {
+    border: 1px solid  #F40;
+    border-bottom: none;
+
+}
+.box2 .centerBox .model #modelOne ul li a.select {
+    color: #F40;
+}
+.box2 .centerBox .model #modelOne div{
+    display: none;
+    width: 289px;
+    height: 150px;
+    background: white;
+    border: 1px solid #F40;
+    position: absolute;
+    top: 69px;
+    left: 0;
+}
+.box2 .centerBox .model #modelOne div .inner{
+    position: absolute;
+    top: 13px;
+    left: 5px;
+    width: 278px;
+    height: 26px;
+    z-index: 1;
+    border: none;
+}
+.box2 .centerBox .model #modelOne div .inner .chargeCalls{
+    width: 192px;
+    height: 117px;
+    border: none;
+    /*border: 1px solid black;*/
+    z-index: 1;
+    position: absolute;
+    top: 20px;
+    left: 5px;
+}
+.box2 .centerBox .model #modelOne div .inner .chargeCalls  input{
+    width: 188px;
+    height: 26px;
+    border: 1px solid #ccc;
+    padding: 0 8px;
+}
+.box2 .centerBox .model #modelOne div .inner .chargeCalls select{
+    width: 206px;
+    height: 26px;
+    border: 1px solid #ccc;
+    padding: 0 8px;
+}
+.box2 .centerBox .model #modelOne div .inner .chargeCalls  input.input1{
+    border-bottom: none;
+}
+.box2 .centerBox .model #modelOne div .inner .chargeCalls .text{
+   font-size: 12px;
+    color: #666;
+    line-height: 16px;
+    padding-left: 5px;
+}
+.box2 .centerBox .model #modelOne div .inner .chargeCalls .text i{
+    font-style: inherit;
+    color:#f60;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.box2 .centerBox .model #modelOne div .inner .chargeCalls  a{
+    display: block;
+    width: 72px;
+    height: 27px;
+    line-height: 27px;
+    color: white;
+    background: #f40;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center;
+   font-weight: 700;
+
+}
+.box2 .centerBox .model #modelOne div .inner .chargeCalls  a:hover {
+    background-color: #f22d00;
+    color:#fff!important ;
+    text-decoration: none;
+}
+
+.box2 .centerBox .model #modelOne div .inner a{
+    width: 56px;
+    height: 20px;
+    line-height: 20px;
+    text-decoration: none;
+    margin-left: 10px;
+
+}
+.box2 .centerBox .model #modelOne div .inner span{
+    position: absolute;
+    top: -15px;
+    right: -4px;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url("../images/close1.png")no-repeat;
+    cursor: pointer;
+    border: 1px solid #c3c3c3;
+}
+.box2 .centerBox .model #modelOne div .inner a.select{
+    color: #F40;
+}
+.box2 .centerBox .model #modelOne div .inner a:hover{
+    color: #F40;
+}
+
+.box2 .centerBox .model #modelTwo{
+    width: 292px;
+    height: 138px;
+}
+.box2 .centerBox .model #modelTwo ul{
+    width: 292px;
+    height: 138px;
+}
+.box2 .centerBox .model #modelTwo ul li{
+    position: relative;
+    float: left;
+    width: 70px;
+    height: 69px;
+    margin-right: 3px ;
+    background: white;
+    margin-top: 2px;
+}
+
+.box2 .centerBox .model #modelTwo ul li a img{
+    display: block;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 11px;
+    left: 50%;
+    margin-left: -12px;
+}
+.box2 .centerBox .model #modelTwo ul li p{
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    margin-left: -14px;
+}
+.box2 .centerBox .model #modelTwo ul li:hover p{
+    color:#F40;
+}
+.box2 .centerBox .model #modelTwo ul li.select {
+    border-bottom-color: white;
+}
+.box2 .centerBox .model #modelTwo ul li a.select {
+    color: #F40;
+}
+
+.box2 .centerBox .app{
+    width: 290px;
+    height: 116px;
+    float: right;
+    margin-top: 19px;
+    background: white;
+
+}
+.box2 .centerBox .app .appIn{
+    overflow: hidden;
+    width: 290px;
+    height: 116px;
+    background: url("../images/defalt.gif")no-repeat center;
+}
+.box2 .centerBox .app .appIn h3{
+    float: left;
+    width: 264px;
+    height: 15px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #3C3C3C;
+    position: relative;
+    font-weight: bold;
+    margin-left: 10px;
+    padding-top: 5px;
+    background: white;
+}
+.box2 .centerBox .app .appIn h3 a{
+    display: inline-block;
+    float: right;
+    line-height: 20px;
+    text-decoration: none;
+    font-weight: 100;
+}
+.box2 .centerBox .app .appIn h3 a:hover{
+    color: #F40;
+}
+.box2 .centerBox .app .appIn ul{
+    padding-top: 35px;
+    padding-left: 10px;
+    background: white;
+    width: 295px;
+    height: 75px;
+}
+.box2 .centerBox .app .appIn ul li{
+    float: left;
+    width: 34px;
+    height: 34px;
+    margin-right: 23px;
+    margin-bottom: 5px;
+}
+.box2 .centerBox .app .appIn ul li a{
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+}
+.box2 .centerBox .app .appIn ul li a img{
+    width: 100%;
+    height: 100%;
+}
+
+.box2 .centerBox  .news{
+    position: absolute;
+    top: 640px;
+    right: 0;
+    width: 290px;
+    height: 110px;
+    float: right;
+
+}
+.box2 .centerBox  .news .newIn{
+    width: 100%;
+    height: 100%;
+    background: url("../images/defalt.gif")no-repeat center;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.box2 .centerBox  .news .newIn div{
+    padding: 10px;
+    position: relative;
+    width: 270px;
+    height: 90px;
+    left: -5px;
+    background: white;
+
+}
+.box2 .centerBox  .news .newIn div h3{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 270px;
+    height: 18px;
+    background: white;
+    background: url("../images/newIn.jpg")no-repeat ;
+}
+.box2 .centerBox  .news .newIn div  h3 a{
+    display: block;
+    float: right;
+    line-height: 20px;
+    text-decoration: none;
+    font-weight: 100;
+}
+.box2 .centerBox  .news .newIn div  h3 a:hover{
+    color: #F40;
+}
+.box2 .centerBox  .news .newIn div #newIn{
+    width: 270px;
+    height: 220px;
+}
+.box2 .centerBox  .news .newIn div  p{
+    width: 270px;
+    height: 60px;
+    margin-top: 20px;
+    background: white;
+
+
+}
+.box2 .centerBox  .news .newIn div  p img{
+    width: 60px;
+    height: 60px;
+}
+.box2 .centerBox  .news .newIn  #newIn  div p em{
+    display: block;
+    margin-top: -55px;
+    margin-left: 59px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    height: 18px;
+    line-height: 18px;
+    width: 205px;
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+.box2 .centerBox  .news .newIn div  a:hover em{
+    color: #F40;
+}
+.box2 .centerBox  .news .newIn #newIn div p span{
+    display: block;
+    width: 188px;
+    height: 35px;
+
+    margin-left: 60px;
+    overflow: hidden;
+    line-height: 16px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.box2 .centerBox .goodThings{
+    overflow: hidden;
+    width: 290px;
+    height: 1225px;
+    float: right;
+    background: url("../images/defalt.gif")no-repeat center;
+}
+.box2 .centerBox .goodThings div{
+    position: relative;
+    padding-left: 10px;
+    width: 280px;
+    height: 1205px;
+    background: white;
+}
+
+.box2 .centerBox .goodThings .title{
+    width: 270px;
+    height: 51px;
+    background: url("../images/goodThings.jpg")no-repeat left center;
+}
+.box2 .centerBox .goodThings a{
+    position: relative;
+    width: 270px;
+    height: 100px;
+    display: block;
+    margin-bottom: 15px;
+}
+.box2 .centerBox .goodThings a span{
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+.box2 .centerBox .goodThings a span img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.box2 .centerBox .goodThings a strong{
+    width: 156px;
+    height: 32px;
+    position: absolute;
+    top: 0;
+    left: 110px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.box2 .centerBox .goodThings a:hover strong{
+    color: #F40;
+}
+.box2 .centerBox .goodThings a  p{
+    position: absolute;
+    top: 32px;
+    left: 110px;
+    overflow: hidden;
+    width: 160px;
+    height: 40px;
+    line-height: 20px;
+
+}
+.box2 .centerBox .goodThings a em{
+    display: block;
+    color:#68acf5 ;
+    font-weight: 700;
+    width: 270px;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 6px;
+    position: absolute;
+    bottom: 6px;
+    left: 110px;
+}
+.box2 .centerBox .goodThings a:hover img{
+    transition: all .2s;
+    opacity: 0.8;
+}
+.box2 .centerBox .goodThings div .bottom{
+    width: 290px;
+    height: 27px;
+    position: absolute;
+    bottom:-20px;
+    left: 0;
+    line-height: 27px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+    cursor: pointer;
+}
+.box2 .centerBox .goodThings div .bottom:hover{
+    color: #f40;
+}
+
+.box2 .centerBox .goodShop{
+    position: relative;
+    width: 290px;
+    height: 1066px;
+    margin-top: 10px;
+    background: url("../images/defalt.gif")no-repeat center ;
+}
+.box2 .centerBox .goodShop div{
+    background: white;
+    width: 290px;
+    height: 250px;
+    margin-bottom: 3px;
+    padding-top: 5px;
+}
+
+.box2 .centerBox .goodShop div .title{
+    width: 290px;
+    height: 36px;
+    margin-left: 10px;
+    background: url("../images/goodShop.jpg")no-repeat left center;
+    cursor: pointer;
+}
+.box2 .centerBox .goodShop div a{
+    display: block;
+    text-decoration: none;
+}
+.box2 .centerBox .goodShop div a:hover strong{
+    color: #F40;
+}
+.box2 .centerBox .goodShop div strong{
+    font-size: 14px;
+    font-weight: bold;
+    color: #3C3C3C;
+    margin-left: 10px;
+    line-height: 0px;
+}
+.box2 .centerBox .goodShop div p{
+    margin-left: 10px;
+    color: #333333;
+}
+.box2 .centerBox .goodShop div .img{
+    margin-top: 8px;
+    width: 272px;
+    height: 182px;
+    margin-left: 10px;
+}
+.box2 .centerBox .goodShop div .img a{
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+}
+.box2 .centerBox .goodShop div .img .img1{
+    width: 180px;
+    height: 180px;
+    float: right;
+}
+.box2 .centerBox .goodShop div .img .img1 img,.box2 .centerBox .goodShop div .img .img2 img,.box2 .centerBox .goodShop div .img .img3 img{
+    width: 100%;
+    height: 100%;
+}
+.box2 .centerBox .goodShop div .img .img2,.box2 .centerBox .goodShop div .img .img3{
+    width: 89px;
+    height: 89px;
+    float: left;
+}
+.box2 .centerBox .goodShop div .img a:hover img{
+    transition: opacity .2s;
+}
+.box2 .centerBox .goodShop  .bottom{
+    width: 290px;
+    height: 30px;
+    line-height: 27px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+    cursor: pointer;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+}
+.box2 .centerBox .goodShop  .bottom:hover{
+    color: #F40;
+
+}
+.box2 .centerBox .hotToday{
+    width: 290px;
+    height: 273px;
+}
+.box2 .centerBox .hotToday h4{
+    font-size: 14px;
+    margin-left: 10px;
+    padding-top:8px;
+}
+.box2 .centerBox .hotToday a{
+    display: block;
+    width: 290px;
+    height: 237px;
+
+}
+.box2 .centerBox .hotToday a img{
+    width: 100%;
+    height: 100%;
+}
+
+/*---------------------banner1-------------end------------------------*/
+.box2 .centerBox .middle{
+    width: 520px;
+    height: 28px;
+    border-bottom:2px solid #c12c26;
+    position: absolute;
+    left: 202px;
+    top: 300px;
+
+}
+.box2 .centerBox .middle span{
+    display: block;
+    border-bottom: 2px solid #000;
+    width: 58px;
+    height: 26px;
+    line-height: 34px;
+    font-weight: 700;
+    padding-left: 48px;
+    background: url("../images/tmao.gif")-4px bottom no-repeat;
+    position: relative;
+    bottom: -2px;
+    font-size: 14px;
+    color:#3c3c3c ;
+
+}
+.box2 .centerBox .middle em{
+    display: inline-block;
+    font-size: 12px;
+    color: #666;
+    position: absolute;
+    left:110px ;
+    top: 10px;
+}
+.box2 .centerBox .middle strong {
+    position: absolute;
+    right: 0;
+    top: 11px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.box2 .centerBox .middle strong i {
+  font-style: inherit;
+    color: #c12c26;
+}
+/*-----------------------banner 2------begin------------------------*/
+.box2 .centerBox .banner2{
+    position: absolute;
+    left: 202px;
+    width: 520px;
+    height:200px;
+    border: 1px solid blueviolet;
+}
+.box2 .centerBox .banner2 .bannerInner{
+    width: 100%;
+    height:100%;
+    background: url("../images/defalt.gif")no-repeat center;
+}
+.box2 .centerBox .banner2 .bannerInner div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    z-index: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.box2 .centerBox .banner2 .bannerInner img{
+    width: 100%;
+    height:100%;
+   display:none;
+}
+.box2 .centerBox .banner2 .bannerInner .o{
+    width: 173px;
+    height: 100px;
+}
+
+.box2 .centerBox .banner2 .bannerTip{
+    z-index: 5;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    width: 65px;
+    height: 13px;
+    border-radius: 5px;
+    opacity: 0.5;
+    background: rgba(255,255,255,.3);
+
+}
+.box2 .centerBox .banner2 .bannerTip li{
+    float: left;
+    width: 9px;
+    height:9px;
+    line-height: 13px;
+    border-radius: 50%;
+    background:#B7B7B7;
+    cursor: pointer;
+    margin: 2px ;
+}
+.box2 .centerBox .banner2 .bannerTip li.bg{
+    background:#F40;
+}
+.box2 .centerBox .banner2 a {
+    display: none;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    margin-top: -18px;
+    width: 25px;
+    height: 36px;
+    background: url("../images/pre.png") center ;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.box2 .centerBox .banner2 a:hover{
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.box2 .centerBox .banner2 .bannerLeft {
+    left: 20px;
+    background-position: 0 49px;
+}
+.box2 .centerBox .banner2 .bannerRight {
+    right: 20px;
+    background-position: -50px 49px;
+}
+.box2 .centerBox .loadT{
+    cursor: pointer;
+    float: right;
+    position: absolute;
+    top: 330px;
+    right: 296px;
+    width: 160px;
+    height: 200px;
+    background: url("../images/defalt.gif")no-repeat center;
+}
+.box2 .centerBox .loadT .loadH{
+    position: absolute;
+    left: 0;
+    top: -30px;
+    width: 160px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 400;
+    background-color: #f1f1f1;
+    color: #a1a1a1;
+    line-height: 24px;
+    padding-top: 6px;
+}
+.box2 .centerBox .loadT  img{
+    width: 100%;
+    height: 100%;
+    /*display: none;*/
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+/*----------------------banner2--e-------------*/
+.box2 .centerBox .navList{
+    margin-top: 10px;
+    width: 890px;
+    height: 86px;
+    /*background: white;*/
+    background: url("../images/defalt.gif")no-repeat center;
+    overflow: hidden;
+    /*border: 1px solid greenyellow;*/
+}
+.box2 .centerBox .navList #navList{
+    width: 1190px;
+    height: 86px;
+}
+.box2 .centerBox .navList  div{
+    background: white;
+    padding-top: 6px;
+    position: relative;
+    width:179px ;
+    height: 70px;
+    float: left;
+    cursor: pointer;
+}
+
+.box2 .centerBox .navList  div  strong {
+    position: relative;
+    top: -12px;
+    right: -10px;
+    height: 24px;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+}
+.box2 .centerBox .navList  div span{
+    display: block;
+    width: 100px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 12px;
+   position: absolute;
+    right: -5px;
+    top: 29%;
+
+}
+.box2 .centerBox .navList  div em{
+    display: block;
+    height: 20px;
+    color: #999;
+    padding-top: 2px;
+}
+.box2 .centerBox .navList  div em i{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../images/burn.png")no-repeat -6px -1px ;
+
+}
+.box2 .centerBox .navList  div img{
+    margin-left: 10px;
+    width: 60px;
+    height: 60px;
+    padding: 1px;
+    border: 1px solid #ededed;
+    border-radius: 100%;
+    background-clip: padding-box;
+    float: left;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.box2 .centerBox .navList  div.one:hover img{
+    transition: all 0.2s;
+    -moz-transition:all 0.2s ;
+    -o-transition:all 0.2s ;
+     opacity: 0.8;
+    border:1px solid #9a745f;
+}
+.box2 .centerBox .navList  div.one strong,.box2 .centerBox .navList  div.one span{
+    color:#9a745f;
+}
+
+.box2 .centerBox .navList  div.two:hover img{
+    transition: all 0.2s;
+    -moz-transition:all 0.2s ;
+    -o-transition:all 0.2s ;
+    opacity: 0.8;
+    border:1px solid #81c18f;
+}
+.box2 .centerBox .navList  div.two strong,.box2 .centerBox .navList  div.two span{
+    color:#81c18f;
+}
+
+.box2 .centerBox .navList  div.three:hover img{
+    transition: all 0.2s;
+    -moz-transition:all 0.2s ;
+    -o-transition:all 0.2s ;
+    opacity: 0.8;
+    border:1px solid #72a5f6;
+}
+.box2 .centerBox .navList  div.three  strong,.box2 .centerBox .navList  div.three span{
+    color:#72a5f6;
+}
+.box2 .centerBox .navList  div.four:hover img{
+    transition: all 0.2s;
+    -moz-transition:all 0.2s ;
+    -o-transition:all 0.2s ;
+    opacity: 0.8;
+    border:1px solid #846fc7;
+}
+.box2 .centerBox .navList  div.four  strong,.box2 .centerBox .navList  div.four span{
+    color:#846fc7;
+}
+.box2 .centerBox .navList  div.five:hover img{
+    transition: all 0.2s;
+    -moz-transition:all 0.2s ;
+    -o-transition:all 0.2s ;
+    opacity: 0.8;
+    border:1px solid #de525e;
+}
+.box2 .centerBox .navList  div.five  strong,.box2 .centerBox .navList  div.five span{
+    color:#de525e;
+}
+/*------------------usually--------------------------*/
+.box2 .centerBox .usually{
+    width: 889px;
+    height: 792px;
+    /*border: 1px solid deeppink;*/
+}
+.box2 .centerBox .usually .title{
+    position: relative;
+    width: 889px;
+    height: 37px;
+    background: url("../images/usually.jpg")no-repeat center;
+}
+.box2 .centerBox .usually .title a{
+    background:#FFFFFF;
+    display: block;
+    position: absolute;
+    right: 12px;
+    bottom: 4px;
+    font-weight: 400;
+    border-radius: 10px;
+    line-height: 20px;
+    height: 20px;
+    padding:0 9px 0 14px;
+
+}
+.box2 .centerBox .usually .title a:hover{
+    color: #fff;
+    background-color: #f40;
+    text-decoration: none;
+}
+.box2 .centerBox .usually .usuallyA{
+    width: 909px;
+    height: 744px;
+    float: left;
+}
+.box2 .centerBox .usually .usuallyA .leftA{
+    margin-right: 13px;
+    margin-bottom: 12px;
+    position: relative;
+    width: 440px;
+    height: 362px;
+}
+.box2 .centerBox .usually .usuallyA .leftA  .inA{
+    width: 100px;
+    height: 362px;
+    /*border: 1px solid brown;*/
+    float: left;
+}
+.box2 .centerBox .usually .usuallyA .leftA  .inA a img{
+    width: 100%;
+    height: 100%;
+}
+.box2 .centerBox .usually .usuallyA .leftA  .inA div{
+    overflow: hidden;
+}
+.box2 .centerBox .usually .usuallyA .leftA  .inA div strong{
+    display: block;
+    text-indent: 8px;
+    color: #fff;
+    padding-top: 8px;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+.box2 .centerBox .usually .usuallyA .leftA  .inA div .innerA{
+    width: 92px;
+    height: 230px;
+    float: right;
+}
+.box2 .centerBox .usually .usuallyA .leftA  .inA div .innerA ul li {
+    height: 19px;
+    line-height: 19px;
+}
+.box2 .centerBox .usually .usuallyA .leftA  .inA div .innerA  span {
+    background: rgba(255,255,255,.2);
+    color: #FFFFFF;
+    padding:0  8px ;
+    margin-bottom: 3px;
+    transition: all .3s;
+    float: left;
+    height: 19px;
+    line-height: 19px;
+}
+.box2 .centerBox .usually .usuallyA .leftA  .imgListA{
+    position: absolute;
+    right:-4px;
+    top: 0;
+    width: 340px;
+    height: 358px;
+    border: 2px solid #ff5898;
+    overflow: hidden;
+}
+.box2 .centerBox .usually .usuallyA .leftA  .imgListA .topDiv{
+    position: relative;
+    width:340px;
+    height: 202px;
+}
+.box2 .centerBox .usually .usuallyA .leftA  .imgListA .topDiv a{
+    display: block;
+    text-decoration: none;
+    float: left;
+}
+.box2 .centerBox .usually .usuallyA .leftA  .imgListA .topDiv a.one.b{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.box2 .centerBox .usually .usuallyA .leftA  .imgListA .topDiv a:hover span{
+    color:#f50 ;
+}
+.box2 .centerBox .usually .usuallyA .leftA  .imgListA .topDiv a.one{
+    position: relative;
+    width: 78px;
+    height: 79px;
+    padding: 10px;
+    background: white;
+    border: 1px solid #efefef ;
+}
+.box2 .centerBox .usually .usuallyA .leftA  .imgListA .topDiv a.one img{
+    display: block;
+    width: 100%;
+    height:100%;
+    transition: all .2s;
+}
+.box2 .centerBox .usually .usuallyA .leftA  .imgListA .topDiv a.one span{
+    position: absolute;
+    display: block;
+    width: 80px;
+    bottom: 10px;
+    overflow: hidden;
+    height: 20px;
+    line-height: 20px;
+    background-color: rgba(255,255,255,.8);
+    text-align: center;
+}
+.box2 .centerBox .usually .usuallyA .leftA  .imgListA .topDiv a.one.two{
+    width: 80px;
+    height: 180px;
+    float: left;
+}
+.box2 .centerBox .usually .usuallyA .leftA  .imgListA .topDiv a.one.three{
+    width: 116px;
+    height: 179px;
+    float: right;
+}
+.box2 .centerBox .usually .usuallyA .leftA  .imgListA .bottomDiv{
+    float: left;
+    width: 340px;
+    height: 160px;
+    border: 1px solid #efefef ;
+    position: relative;
+}
+.box2 .centerBox .usually .usuallyA .leftA  .imgListA .bottomDiv .one{
+    display: block;
+    position: relative;
+    width: 180px;
+    height: 140px;
+    padding: 10px 10px 0  ;
+    background: white;
+}
+.box2 .centerBox .usually .usuallyA .leftA  .imgListA .bottomDiv .one img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.box2 .centerBox .usually .usuallyA .leftA  .imgListA .bottomDiv .one em{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    background-color: #fe6fa6;
+    color: #fff;
+    line-height: 24px;
+     width: 50px;
+    height: 24px;
+    text-align: center;
+}
+.box2 .centerBox .usually .usuallyA .leftA  .imgListA .bottomDiv .one span{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    background-color: #fff;
+    line-height: 24px;
+    width: 130px;
+    height: 24px;
+    text-align: center;
+    transition: all .2s;
+    opacity: .8;
+}
+.box2 .centerBox .usually .usuallyA .leftA  .imgListA .bottomDiv .one:hover img{
+    opacity: 0.8;
+}
+.box2 .centerBox .usually .usuallyA .leftA  .imgListA .bottomDiv .one:hover span{
+    background: #fff;
+    opacity: 1;
+    color: #F40;
+}
+.box2 .centerBox .usually .usuallyA .leftA  .imgListA .bottomDiv .two{
+    width: 138px;
+    height: 81px;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: white;
+    text-decoration: none;
+}
+.box2 .centerBox .usually .usuallyA .leftA  .imgListA .bottomDiv .two.three{
+    width: 138px;
+    height: 81px;
+    position: absolute;
+    top: 76px;
+    left: 202px;
+    background: white;
+    text-decoration: none;
+}
+.box2 .centerBox .usually .usuallyA .leftA  .imgListA .bottomDiv .two img{
+    display: block;
+    width: 60px;
+    height: 60px;
+    float: right;
+}
+.box2 .centerBox .usually .usuallyA .leftA  .imgListA .bottomDiv .two strong{
+    display: block;
+    width: 56px;
+    height: 18px;
+    margin: 5px 8px;
+}
+.box2 .centerBox .usually .usuallyA .leftA  .imgListA .bottomDiv .two em{
+    display: block;
+    width: 56px;
+    height: 30px;
+    color: #666;
+    margin-left: 8px;
+}
+.box2 .centerBox .usually .usuallyA .leftA  .imgListA .bottomDiv .two:hover strong{
+    color: #F40;
+}
+
+
+.box2 .centerBox .usually .usuallyA .leftA  .inA div{
+    width: 100px;
+    height: 262px;
+    background: #fe6fa6;
+}
+.box2 .centerBox .usually .usuallyA .leftA  .inA div i{
+    display: inline-block;
+    width: 10px;
+    height: 12px;
+    background: url("../images/H.gif");
+    float: right;
+}
+.box2 .centerBox .usually .usuallyA .leftA  .inA div a:hover{
+    background-color: #FFFFFF;
+}
+.box2 .centerBox .usually .usuallyA .leftA  .inA div a:hover span{
+    color:#f50;
+}
+
+.box2 .centerBox .usually .usuallyA .leftA#leftB .inA div{
+    background: #f24f4f;
+}
+.box2 .centerBox .usually .usuallyA .leftA#leftC .inA div{
+    background:#ffa401;
+}
+.box2 .centerBox .usually .usuallyA .leftA#leftD .inA div{
+    background: #459ac4;
+}
+
+/*--------- ---------disclose------------------------*/
+.box2 .centerBox .disclose{
+    position: relative;
+    width: 890px;
+    height: 70px;
+    /*border: 1px solid deepskyblue;*/
+}
+.box2 .centerBox .disclose a{
+    position: relative;
+    width: 890px;
+    height: 70px;
+    cursor: pointer;
+    z-index: 1;
+}
+.box2 .centerBox .disclose img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+/*--------- ---------fashion------------------------*/
+.box2 .centerBox .fashion{
+    width: 889px;
+    height: 305px;
+}
+.box2 .centerBox .fashion .title{
+    position: relative;
+    width: 889px;
+    height: 37px;
+    background: url("../images/fashion.jpg")no-repeat center;
+}
+.box2 .centerBox .fashion .title a{
+    background:#FFFFFF;
+    display: block;
+    position: absolute;
+    right: 12px;
+    bottom: 4px;
+    font-weight: 400;
+    border-radius: 10px;
+    line-height: 20px;
+    height: 20px;
+    padding:0 9px 0 14px;
+
+}
+.box2 .centerBox .fashion .title a:hover{
+    color: #fff;
+    background-color: #f40;
+    text-decoration: none;
+}
+
+.box2 .centerBox .fashion .inner{
+    width: 892px;
+    height: 268px;
+    margin-top: 37px;
+    overflow: hidden;
+}
+.box2 .centerBox .fashion .inner ul{
+    width: 900px;
+    height: 268px;
+}
+.box2 .centerBox .fashion .inner ul li{
+    width: 221px;
+    height: 258px;
+    background: #FFFFFF;
+    overflow: hidden;
+    margin-bottom: 10px;
+    border-right: 2px solid #eaeaea;
+    border: 1px solid transparent;
+    float: left;
+}
+.box2 .centerBox .fashion .inner ul li:hover{
+    border: 1px solid #F40;
+}
+.box2 .centerBox .fashion .inner ul li .h{
+    width: 221px;
+    height: 29px;
+    border-bottom: 1px solid #f0f0f0;
+    padding-top: 9px;
+}
+.box2 .centerBox .fashion .inner ul li.box1 .h h3{
+    position: relative;
+    width: 115px;
+    height: 18px;
+    margin: 10px auto ;
+    text-align: center;
+}
+.box2 .centerBox .fashion .inner ul li.box1 .h h3 a{
+    position: absolute;
+    top: -8px;
+    display: block;
+    width: 83px;
+    height: 18px;
+    text-align: center;
+    background: url("../images/fashion1.jpg")no-repeat center;
+    background-size: 85% 100%;
+}
+.box2 .centerBox .fashion .inner ul li.box1 .fsbottom{
+    position: relative;
+    float: left;
+    width: 221px;
+    height: 222px;
+
+}
+.box2 .centerBox .fashion .inner ul li.box1 .fsbottom a.aa{
+    width: 88px;
+    height: 220px;
+    border-top:1px solid #f0f0f0 ;
+    border-right: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    margin-left: -1px;
+    margin-top: -1px;
+    border-radius: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 10px 0 14px;
+    background: white;
+}
+.box2 .centerBox .fashion .inner ul li.box1 .fsbottom .aa img{
+    width: 88px;
+    height: 200px;
+}
+.box2 .centerBox .fashion .inner ul li.box1 .fsbottom .aa  span{
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    left: 14px;
+    height: 42px;
+    background: #ff0055;
+    padding: 0 6px;
+    color: white;
+    text-align: left;
+}
+.box2 .centerBox .fashion .inner ul li.box1 .fsbottom a.bb{
+    width: 90px;
+    height: 90px;
+    border-top:1px solid #f0f0f0 ;
+    border-right: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    margin-left: -1px;
+    margin-top: 3px;
+    border-radius: 0;
+    position: relative;
+    background: white;
+    padding: 10px;
+    float: right;
+}
+.box2 .centerBox .fashion .inner ul li.box1 .fsbottom .bb img{
+    width: 90px;
+    height: 90px;
+}
+.box2 .centerBox .fashion .inner ul li.box1 .fsbottom .bb  span{
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    height: 20px;
+    width: 90px;
+    background: #fff;
+    opacity: .8;
+    text-align: center;
+}
+.box2 .centerBox .fashion .inner ul li.box1 .fsbottom .bb:hover  span{
+    opacity: 1;
+    color: #F40;
+}
+.box2 .centerBox .fashion .inner ul li.box1 .fsbottom a.bb.cc{
+    position: absolute;
+    top: 108px;
+    left: 99px;
+}
+
+.box2 .centerBox .fashion .inner ul li.box1.box2 .fsbottom a.bb{
+   float: left;
+}
+.box2 .centerBox .fashion .inner ul li.box1.box2 .h h3 a{
+    background: url("../images/fashion2.jpg")no-repeat;
+    background-size: 85% 100%;
+}
+.box2 .centerBox .fashion .inner ul li.box1.box3 .fsbottom .aa  span{
+    background: #940ce2;
+}
+.box2 .centerBox .fashion .inner ul li.box1.box3 .h h3 a{
+    background: url("../images/fashion3.jpg")no-repeat;
+    background-size: 85% 100%;
+}
+.box2 .centerBox .fashion .inner ul li.box1.box2.box4 .h h3 a{
+    background: url("../images/fashion4.jpg")no-repeat;
+    background-size: 85% 100%;
+}
+
+/*--------- ---------home------------------------*/
+.box2 .centerBox .home{
+    width: 889px;
+    height: 573px;
+    /*border: 1px solid black;*/
+}
+.box2 .centerBox .home .title{
+    position: relative;
+    width: 899px;
+    height: 37px;
+    background: url("../images/home.jpg")no-repeat center;
+}
+.box2 .centerBox .home .title a{
+    display: block;
+    position: absolute;
+    right: 12px;
+    bottom: 4px;
+    font-weight: 400;
+    border-radius: 10px;
+    line-height: 20px;
+    height: 20px;
+    padding:0 9px 0 14px;
+    background: #FFFFFF;
+
+}
+.box2 .centerBox .home .title a:hover{
+    color: #fff;
+    background-color: #f40;
+    text-decoration: none;
+}
+.box2 .centerBox .home .inner{
+    width: 892px;
+    height: 536px;
+    overflow: hidden;
+}
+.box2 .centerBox .home .inner ul{
+    width: 900px;
+    height: 268px;
+}
+.box2 .centerBox .home .inner ul li{
+    width: 221px;
+    height: 258px;
+    background: #FFFFFF;
+    overflow: hidden;
+    margin-bottom: 10px;
+    border-right: 2px solid #eaeaea;
+    border: 1px solid transparent;
+    float: left;
+}
+.box2 .centerBox .home .inner ul li:hover{
+    border: 1px solid #F40;
+}
+.box2 .centerBox .home .inner ul li .h{
+    width: 221px;
+    height: 29px;
+    border-bottom: 1px solid #f0f0f0;
+    padding-top: 9px;
+}
+.box2 .centerBox .home .inner ul li.box1 .h h3{
+    position: relative;
+    width: 115px;
+    height: 18px;
+    margin: 10px auto ;
+    text-align: center;
+}
+.box2 .centerBox .home .inner ul li.box1 .h h3 a{
+    position: absolute;
+    top: -8px;
+    display: block;
+    width: 83px;
+    height: 18px;
+    text-align: center;
+    background: url("../images/home1.jpg")no-repeat center;
+    background-size: 90% 100%;
+}
+.box2 .centerBox .home .inner ul li.box1 .fsbottom{
+    position: relative;
+    float: left;
+    width: 221px;
+    height: 222px;
+}
+.box2 .centerBox .home .inner ul li.box1 .fsbottom a.aa{
+    width: 88px;
+    height: 220px;
+    border-top:1px solid #f0f0f0 ;
+    border-right: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    margin-left: -1px;
+    margin-top: -1px;
+    border-radius: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 10px 10px 14px;
+    background: white;
+}
+.box2 .centerBox .home .inner ul  a{
+    text-decoration: none;
+}
+.box2 .centerBox .home .inner ul  a:hover{
+    color: #f40;
+}
+.box2 .centerBox .home .inner ul li.box1.home1 .fsbottom a.bb{ float: right;
+}
+.box2 .centerBox .home .inner ul li.box1.home1 .fsbottom a.aa,.box2 .centerBox .home .inner ul li.box1.home1 .fsbottom a.bb{
+    width: 100px;
+    height: 141px;
+}
+.box2 .centerBox .home .inner ul li.box1 .fsbottom .aa  strong,.box2 .centerBox .home .inner ul li.box1 .fsbottom .bb  strong{
+    display: block;
+    width: 90px;
+    height: 21px ;
+    line-height: 21px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 10px;
+  text-decoration: none;
+    margin-top: 8px;
+    margin-bottom:6px;
+}
+.box2 .centerBox .home .inner ul li.box1 .fsbottom .aa  em,.box2 .centerBox .home .inner ul li.box1 .fsbottom .bb  em{
+    display: block;
+    width: 100px;
+    height: 18px;
+    line-height: 18px;
+}
+.box2 .centerBox .home .inner ul li.box1 .fsbottom .aList{
+    height: 55px;
+    padding-top: 6px;
+
+}
+.box2 .centerBox .home .inner ul li.box1 .fsbottom .aList a{
+    display: block;
+    width: 65px;
+    float: left;
+    text-align: center;
+    height: 22px;
+    line-height: 22px;
+    padding: 0 4px ;
+}
+.box2 .centerBox .home .inner ul li.box1.home1 .fsbottom a.aa img{
+    width: 90px;
+    height: 90px;
+}
+.box2 .centerBox .home .inner ul li.box1 .fsbottom .aa img{
+    width: 88px;
+    height: 200px;
+}
+.box2 .centerBox .home .inner ul li.box1 .fsbottom .aa  span{
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    left: 14px;
+    height: 42px;
+    background: #ff0055;
+    padding: 0 6px;
+    color: white;
+    text-align: left;
+}
+.box2 .centerBox .home .inner ul li.box1 .fsbottom a.bb{
+    width: 90px;
+    height: 90px;
+    border-top:1px solid #f0f0f0 ;
+    border-right: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    margin-left: -1px;
+    margin-top: -1px;
+    border-radius: 0;
+    position: relative;
+    background: white;
+    padding: 10px;
+    float: right;
+}
+.box2 .centerBox .home .inner ul li.box1 .fsbottom .bb img{
+    width: 90px;
+    height: 90px;
+}
+.box2 .centerBox .home .inner ul li.box1 .fsbottom .bb  span{
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    height: 20px;
+    line-height: 20px;
+    width: 90px;
+    background: #fff;
+    opacity: .8;
+    text-align: center;
+}
+.box2 .centerBox .home .inner ul li.box1 .fsbottom .bb:hover  span{
+    opacity: 1;
+    color: #F40;
+}
+.box2 .centerBox .home .inner ul li.box1 .fsbottom a.bb.cc{
+    position: absolute;
+    top: 108px;
+    left: 99px;
+}
+
+.box2 .centerBox .home .inner ul li.box1.box2 .fsbottom a.bb{
+    float: left;
+}
+.box2 .centerBox .home .inner ul li.box1.box2 .h h3 a{
+    background: url("../images/home2.jpg")no-repeat;
+    background-size: 90% 100%;
+}
+.box2 .centerBox .home .inner ul li.box1.box3 .fsbottom .aa  span{
+    background: #940ce2;
+}
+.box2 .centerBox .home .inner ul li.box1.box3 .h h3 a{
+    background: url("../images/home3.jpg")no-repeat center;
+    background-size: 90% 100%;
+}
+.box2 .centerBox .home .inner ul li.box1.box2.box4 .h h3 a{
+    background: url("../images/home4.jpg")no-repeat center;
+    background-size: 90% 100%;
+}
+.box2 .centerBox .home .inner ul li.box1.box2.box5 .h h3 a{
+    background: url("../images/home5.jpg")no-repeat center;
+    background-size: 90% 100%;
+}
+.box2 .centerBox .home .inner ul li.box1.home1.box6 .h h3 a{
+    background: url("../images/home6.jpg")no-repeat center;
+    background-size: 90% 100%;
+}
+.box2 .centerBox .home .inner ul li.box1.home1.box7 .h h3 a{
+    background: url("../images/home7.jpg")no-repeat center;
+    background-size: 90% 100%;
+}
+.box2 .centerBox .home .inner ul li.box1.box2.box8 .h h3 a{
+    background: url("../images/home8.jpg")no-repeat center;
+    background-size: 90% 100%;
+}
+
+/*--------- ---------play------------------------*/
+.box2 .centerBox .play{
+    width: 889px;
+    height: 573px;
+    /*border: 1px solid black;*/
+}
+.box2 .centerBox .play .title{
+    position: relative;
+    width: 899px;
+    height: 37px;
+    background: url("../images/play.jpg")no-repeat center;
+}
+.box2 .centerBox .play .title a{
+    display: block;
+    position: absolute;
+    right: 12px;
+    bottom: 4px;
+    font-weight: 400;
+    border-radius: 10px;
+    line-height: 20px;
+    height: 20px;
+    padding:0 9px 0 14px;
+    background: #FFFFFF;
+
+}
+.box2 .centerBox .play .title a:hover{
+    color: #fff;
+    background-color: #f40;
+    text-decoration: none;
+}
+.box2 .centerBox .play .inner{
+    width: 892px;
+    height: 536px;
+    overflow: hidden;
+}
+.box2 .centerBox .play .inner ul{
+    width: 900px;
+    height: 268px;
+}
+.box2 .centerBox .play .inner ul li{
+    width: 221px;
+    height: 258px;
+    background: #FFFFFF;
+    overflow: hidden;
+    margin-bottom: 10px;
+    border-right: 2px solid #eaeaea;
+    border: 1px solid transparent;
+    float: left;
+}
+.box2 .centerBox .play .inner ul li:hover{
+    border: 1px solid #F40;
+}
+.box2 .centerBox .play .inner ul li .h{
+    width: 221px;
+    height: 29px;
+    border-bottom: 1px solid #f0f0f0;
+    padding-top: 9px;
+}
+.box2 .centerBox .play .inner ul li.box1 .h h3{
+    position: relative;
+    width: 115px;
+    height: 18px;
+    margin: 10px auto ;
+    text-align: center;
+}
+.box2 .centerBox .play .inner ul li.box1 .h h3 a{
+    position: absolute;
+    top: -8px;
+    display: block;
+    width: 83px;
+    height: 18px;
+    text-align: center;
+    background: url("../images/play1.jpg")no-repeat center;
+    background-size: 90% 100%;
+}
+.box2 .centerBox .play .inner ul li.box1 .fsbottom{
+    position: relative;
+    float: left;
+    width: 221px;
+    height: 222px;
+}
+.box2 .centerBox .play .inner ul li.box1 .fsbottom a.aa{
+    width: 88px;
+    height: 220px;
+    border-top:1px solid #f0f0f0 ;
+    border-right: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    margin-left: -1px;
+    margin-top: -1px;
+    border-radius: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 10px 10px 14px;
+    background: white;
+}
+.box2 .centerBox .play .inner ul  a{
+    text-decoration: none;
+}
+.box2 .centerBox .play .inner ul  a:hover{
+    color: #f40;
+}
+
+.box2 .centerBox .play .inner ul li.box1.home1 .fsbottom a.aa,.box2 .centerBox .play .inner ul li.box1.home1 .fsbottom a.bb{
+    width: 100px;
+    height: 141px;
+}
+.box2 .centerBox .play .inner ul li.box1 .fsbottom .aa  strong,.box2 .centerBox .play .inner ul li.box1 .fsbottom .bb  strong{
+    display: block;
+    width: 90px;
+    height: 21px ;
+    line-height: 21px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 10px;
+    text-decoration: none;
+    margin-top: 8px;
+    margin-bottom:6px;
+}
+.box2 .centerBox .play .inner ul li.box1 .fsbottom .aa  em,.box2 .centerBox .play .inner ul li.box1 .fsbottom .bb  em{
+    display: block;
+    width: 100px;
+    height: 18px;
+    line-height: 18px;
+}
+.box2 .centerBox .play .inner ul li.box1 .fsbottom .aList{
+    height: 55px;
+    padding-top: 6px;
+
+}
+.box2 .centerBox .play .inner ul li.box1 .fsbottom .aList a{
+    display: block;
+    width: 65px;
+    float: left;
+    text-align: center;
+    height: 22px;
+    line-height: 22px;
+    padding: 0 4px ;
+}
+.box2 .centerBox .play .inner ul li.box1.home1 .fsbottom a.bb{
+ float: right;
+}
+.box2 .centerBox .play .inner ul li.box1.home1 .fsbottom a.bb strong{
+    margin-left: 0;
+}
+.box2 .centerBox .play .inner ul li.box1 .fsbottom .aa strong, .box2 .centerBox .play .inner ul li.box1 .fsbottom .bb strong{
+    margin-left: 0;
+}
+.box2 .centerBox .play .inner ul li.box1.home1 .fsbottom a.aa img{
+    width: 90px;
+    height: 90px;
+}
+.box2 .centerBox .play .inner ul li.box1 .fsbottom .aa img{
+    width: 88px;
+    height: 200px;
+}
+.box2 .centerBox .play .inner ul li.box1 .fsbottom .aa  span{
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    left: 14px;
+    height: 42px;
+    background: #ff0055;
+    padding: 0 6px;
+    color: white;
+    text-align: left;
+}
+.box2 .centerBox .play .inner ul li.box1 .fsbottom a.bb{
+    width: 90px;
+    height: 90px;
+    border-top:1px solid #f0f0f0 ;
+    border-right: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    margin-left: -1px;
+    margin-top: -1px;
+    border-radius: 0;
+    position: relative;
+    background: white;
+    padding: 10px;
+    float: left;
+}
+.box2 .centerBox .play .inner ul li.box1 .fsbottom .bb img{
+    width: 90px;
+    height: 90px;
+}
+.box2 .centerBox .play .inner ul li.box1 .fsbottom .bb  span{
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    height: 20px;
+    line-height: 20px;
+    width: 90px;
+    background: #fff;
+    opacity: .8;
+    text-align: center;
+}
+.box2 .centerBox .play .inner ul li.box1 .fsbottom .bb:hover  span{
+    opacity: 1;
+    color: #F40;
+}
+.box2 .centerBox .play .inner ul li.box1 .fsbottom a.bb.cc{
+    position: absolute;
+    top: 108px;
+    left: 99px;
+}
+
+.box2 .centerBox .play .inner ul li.box1.box2 .fsbottom a.bb{
+    float: left;
+}
+.box2 .centerBox .play .inner ul li.box1.box2 .h h3 a{
+    background: url("../images/play2.jpg")no-repeat;
+    background-size: 90% 100%;
+}
+.box2 .centerBox .play .inner ul li.box1.box3 .fsbottom .aa  span{
+    background: #940ce2;
+}
+.box2 .centerBox .play .inner ul li.box1.box3 .h h3 a{
+    background: url("../images/play3.jpg")no-repeat center;
+    background-size: 90% 100%;
+}
+.box2 .centerBox .play .inner ul li.box1.box2.box4 .h h3 a{
+    background: url("../images/play4.jpg")no-repeat center;
+    background-size: 90% 100%;
+}
+.box2 .centerBox .play .inner ul li.box1.box5 .h h3 a{
+    background: url("../images/play5.jpg")no-repeat center;
+    background-size: 90% 100%;
+}
+.box2 .centerBox .play .inner ul li.box1.box6 .h h3 a{
+    background: url("../images/play6.jpg")no-repeat center;
+    background-size: 90% 100%;
+}
+.box2 .centerBox .play .inner ul li.box1.box7 .h h3 a{
+    background: url("../images/play7.jpg")no-repeat center;
+    background-size: 90% 100%;
+}
+.box2 .centerBox .play .inner ul li.box1.box8 .h h3 a{
+    background: url("../images/play8.jpg")no-repeat center;
+    background-size: 90% 100%;
+}
+
+/*--------- --------- affordable------------------------*/
+.box2 .centerBox .affordable{
+    width: 889px;
+    height: 313px;
+    /*border: 1px solid black;*/
+}
+.box2 .centerBox .affordable .title{
+    position: relative;
+    width: 899px;
+    height: 37px;
+    background: url("../images/affordable.jpg")no-repeat center;
+}
+.box2 .centerBox .affordable .title a{
+    display: block;
+    position: absolute;
+    right: 12px;
+    bottom: 4px;
+    font-weight: 400;
+    border-radius: 10px;
+    line-height: 20px;
+    height: 20px;
+    padding:0 9px 0 14px;
+    background: #FFFFFF;
+
+}
+.box2 .centerBox .affordable .title a:hover{
+    color: #fff;
+    background-color: #f40;
+    text-decoration: none;
+}
+.box2 .centerBox .affordable ul li{
+    background: white;
+    position: relative;
+    float: left;
+    width: 181px;
+    height: 115px;
+    padding: 10px;
+    border: 1px solid transparent;
+}
+.box2 .centerBox .affordable ul li:hover{
+    border: 1px solid #F40;
+}
+.box2 .centerBox .affordable ul li.long{
+    width: 256px;
+}
+.box2 .centerBox .affordable ul li h3{
+    height: 33px;
+    background: url("../images/shihui1.jpg")no-repeat left;
+    background-size: 26% 55%;
+}
+.box2 .centerBox .affordable ul li span,.box2 .centerBox .affordable ul li em{
+    display: block;
+    height: 18px;
+    line-height: 18px;
+    font-size: 14px;
+    color: #3C3C3C;
+}
+.box2 .centerBox .affordable ul li span{
+    font-weight: 700;
+}
+.box2 .centerBox .affordable ul li a{
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    border: 1px solid #F40;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 12px;
+    width: 76px;
+    text-decoration: none;
+}
+.box2 .centerBox .affordable ul li img{
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 90px;
+    height: 90px;
+    border: none;
+}
+.box2 .centerBox .affordable ul li.box2 h3{
+    height: 33px;
+    background: url("../images/shihui2.jpg")no-repeat left;
+    background-size: 26% 55%;
+}
+.box2 .centerBox .affordable ul li.box3 h3{
+    height: 33px;
+    background: url("../images/shihui3.jpg")no-repeat left;
+    background-size: 26% 55%;
+}
+.box2 .centerBox .affordable ul li.box4 h3{
+    height: 33px;
+    background: url("../images/shihui4.jpg")no-repeat left;
+    background-size: 26% 55%;
+}
+.box2 .centerBox .affordable ul li.box5 h3{
+    height: 33px;
+    background: url("../images/shihui5.jpg")no-repeat left;
+    background-size: 26% 55%;
+}
+.box2 .centerBox .affordable ul li.box6 h3{
+    height: 33px;
+    background: url("../images/shihui6.jpg")no-repeat left;
+    background-size: 26% 55%;
+}
+.box2 .centerBox .affordable ul li.box7 h3{
+    height: 33px;
+    background: url("../images/shihui7.jpg")no-repeat left;
+    background-size: 26% 55%;
+}
+.box2 .centerBox .affordable ul li.box8 h3{
+    height: 33px;
+    background: url("../images/shihui8.jpg")no-repeat left;
+    background-size: 26% 55%;
+}
+
+
+
+/*--------- ---------disclose------------------------*/
+.box2 .centerBox .store{
+    position: relative;
+    width: 890px;
+    height: 70px;
+    border: 1px solid deepskyblue;
+}
+.box2 .centerBox .store a{
+    position: relative;
+    width: 890px;
+    height: 70px;
+    cursor: pointer;
+    z-index: 1;
+}
+.box2 .centerBox .store img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+/*--------------hotSale----------------------*/
+.box2 .centerBox .hotSale{
+    position: relative;
+    width: 1190px;
+    height: 634px;
+    /*border: 1px solid #b94a48;*/
+}
+.box2 .centerBox .hotSale .title1:before{
+    content: "";
+    width: 60px;
+    height: 0;
+    border: 1px solid #e6e6e6 ;
+    position: absolute;
+    top: 50%;
+    left: -100px;
+}
+.box2 .centerBox .hotSale .title1:after{
+    content: "";
+    width: 60px;
+    height: 0;
+    border: 1px solid #e6e6e6 ;
+    position: absolute;
+    top: 50%;
+    right: -46px;
+}
+.box2 .centerBox .hotSale .title1{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width:128px;
+    height:46px;
+    line-height: 46px;
+    background: none;
+}
+.box2 .centerBox .hotSale .title1:hover{
+    border: none;
+}
+.box2 .centerBox .hotSale i{
+    position: absolute;
+    top: 12px;
+    left: 0;
+    display:inline-block;
+    width: 25px;
+    height: 25px;
+    background: url("../images/fire.png")no-repeat center;
+}
+.box2 .centerBox .hotSale span{
+    display: inline-block;
+    position: absolute;
+    top:0;
+    left: 25px;
+    font-size: 18px;
+    line-height: 46px;
+    color: #3c3c3c;
+    font-weight: 700;
+}
+.box2 .centerBox .hotSale #saleList{
+    width: 1180px;
+    height: 31px;
+    line-height: 31px;
+    margin-top: 40px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+.box2 .centerBox .hotSale #saleList li{
+    float: left;
+    width: 49px;
+    height: 14px;
+    line-height: 14px;
+    border-right: 1px solid #e8e8e8;
+}
+.box2 .centerBox .hotSale #saleList li a{
+    display: block;
+    float: left;
+    width: 49px;
+    height: 14px;
+    line-height: 14px;
+    text-decoration: none;
+    color: #6c6c6c;
+    text-align: center;
+
+}
+.box2 .centerBox .hotSale #saleList li:hover a{
+    color: #F40;
+}
+.box2 .centerBox .hotSale{
+    position: relative;
+}
+.box2 .centerBox .hotSale div{
+    background: white;
+}
+
+.box2 .centerBox .hotSale  .bx1{
+    position: relative;
+    width: 211px;
+    height: 387px;
+    padding-top:8px ;
+    border:1px solid transparent;
+    float: left;
+}
+
+.box2 .centerBox .hotSale  .bx1 img{
+    margin-left: 15px;
+    display: block;
+    width: 180px;
+    height: 200px;
+}
+.box2 .centerBox .hotSale  .bx1 span{
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    color: #F40;
+    left: 0;
+    top: 230px;
+}
+.box2 .centerBox .hotSale  .bx1  a.a3 {
+    display: block;
+    height: 20px;
+    position: absolute;
+    top: 240px;
+    margin-left: 5px;
+    color: inherit;
+
+}
+.box2 .centerBox .hotSale  .bx1 a.a2{
+    display: block;
+    height: 20px;
+    position: absolute;
+    top: 260px;
+    color: #3c3c3c;
+    margin-left: 5px;
+}
+.box2 .centerBox .hotSale  .bx2,.box2 .centerBox .hotSale  .bx3,.box2 .centerBox .hotSale  .bx6,.box2 .centerBox .hotSale  .bx9{
+    position: relative;
+}
+.box2 .centerBox .hotSale  .bx2 img,.box2 .centerBox .hotSale  .bx3 img,.box2 .centerBox .hotSale  .bx6  img,.box2 .centerBox .hotSale  .bx9  img{
+    display: block;
+    margin-left: 15px;
+    width: 140px;
+    height: 140px;
+}
+.box2 .centerBox .hotSale  .bx2 span,.box2 .centerBox .hotSale  .bx3 span,.box2 .centerBox .hotSale  .bx6  span,.box2 .centerBox .hotSale  .bx9  span{
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    color: #F40;
+    left: 0;
+    top: 150px;
+}
+.box2 .centerBox .hotSale  .bx2  .a3,.box2 .centerBox .hotSale  .bx3  .a3,.box2 .centerBox .hotSale  .bx6  .a3,.box2 .centerBox .hotSale  .bx9  .a3{
+    display: block;
+    height: 20px;
+    line-height:20px;
+    padding-top: 25px;
+}
+.box2 .centerBox .hotSale  .bx2,.box2 .centerBox .hotSale  .bx3{
+    width: 181px;
+    height: 188px;
+    padding-top:8px ;
+    border:1px solid transparent;
+}
+.box2 .centerBox .hotSale  .bx3{
+    position: absolute;
+    top: 274px;
+    left:213px;
+}
+.box2 .centerBox .hotSale  .bx6{
+    position: absolute;
+    top: 274px;
+    right:396px;
+    width: 182px;
+    height: 188px;
+    padding-top:8px ;
+    border:1px solid transparent;
+}
+.box2 .centerBox .hotSale  .bx9{
+    width: 182px;
+    height: 188px;
+    padding-top:8px ;
+    border:1px solid transparent;
+}
+.box2 .centerBox .hotSale div:hover {
+    border: 1px solid #F40;
+    cursor: pointer;
+}
+.box2 .centerBox .hotSale div:hover img{
+    transition: all .2s;
+    opacity: 0.8;
+ }
+.box2 .centerBox .hotSale .bot{
+    width: 374px;
+    height: 138px;
+    padding: 10px;
+    border: 1px solid transparent;
+}
+.box2 .centerBox .hotSale .bot img{
+    display: block;
+    width: 375px;
+    height: 130px;
+}
+
+/*--------------like----------------------*/
+.box2 .centerBox .like:after{
+    content: "";
+    clear: both;
+}
+.box2 .centerBox .like{
+    position: relative;
+    width: 1190px;
+    /*border: 1px solid #b94a48;*/
+    background: white;
+}
+.box2 .centerBox .like .title1:before{
+    content: "";
+    width: 60px;
+    height: 0;
+    border: 1px solid #e6e6e6 ;
+    position: absolute;
+    top: 50%;
+    left: -100px;
+}
+.box2 .centerBox .like .title1:after{
+    content: "";
+    width: 60px;
+    height: 0;
+    border: 1px solid #e6e6e6 ;
+    position: absolute;
+    top: 50%;
+    right: -46px;
+}
+.box2 .centerBox .like .title1{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width:128px;
+    height:46px;
+    line-height: 46px;
+    background: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: #3c3c3c;
+}
+.box2 .centerBox .like .title1:hover{
+    border: none;
+}
+.box2 .centerBox .like ul{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 46px;
+}
+.box2 .centerBox .like ul li{
+    margin-bottom: 20px;
+    position: relative;
+    float: left;
+    width: 224px;
+    height: 304px;
+    border: 1px solid transparent;
+    margin-right:4px;
+    background: #f1f1f1;
+}
+.box2 .centerBox .like ul li:hover{
+    border: 1px solid #F40;
+}
+.box2 .centerBox .like ul li:hover img{
+    transition: all .2s;
+    opacity: 0.8;
+}
+
+.box2 .centerBox .like ul li a{
+    text-decoration: none;
+}
+.box2 .centerBox .like ul li .imgP{
+    float: left;
+    width: 223px;
+    height: 223px;
+}
+.box2 .centerBox .like ul li .imgP img{
+    width: 100%;
+    height: 100%;
+}
+.box2 .centerBox .like ul li p{
+    height: 36px;
+    line-height: 18px;
+    padding: 3px 12px ;
+    color: #3c3c3c;
+}
+.box2 .centerBox .like ul li span{
+
+    display: block;
+    width: 200px;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    float: left;
+    font-size: 16px;
+    color: #F40;
+    font-weight: 700;
+
+}
+.box2 .centerBox .like ul li span em{
+   color: #9ca0aa;
+    display: block;
+    float: right;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+/*--------------end----------------------*/
+
+.box2 .centerBox .end{
+    width: 1188px;
+    /*border: 1px solid black;*/
+    background: white;
+}
+.box2 .centerBox .end .title{
+    width: 1188px;
+    height: 37px;
+}
+.box2 .centerBox .end .title:before{
+    content: "";
+    width: 60px;
+    height: 0;
+    border: 1px solid #e6e6e6 ;
+    position: absolute;
+    top: 50%;
+    left: -100px;
+}
+.box2 .centerBox .end .title:after{
+    content: "";
+    width: 60px;
+    height: 0;
+    border: 1px solid #e6e6e6 ;
+    position: absolute;
+    top: 50%;
+    right: -46px;
+}
+.box2 .centerBox .end .title{
+    background: white;
+    position: absolute;
+    left: 50%;
+    width:128px;
+    height:46px;
+    line-height: 46px;
+    background: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ccccd0;
+}
+.box2 .centerBox .end .inner{
+     margin-top: 46px;
+     background: #f1f1f1;
+     width: 1188px;
+}
+.box2 .centerBox .end .inner .help{
+    height: 140px;
+    width:1188px;
+    padding-top: 45px;
+    border-bottom: 2px solid #ff4400;
+}
+.box2 .centerBox .end .inner .help div{
+    float: left;
+    width: 297px;
+    height: 95px;
+}
+.box2 .centerBox .end .inner .help div h3{
+    font-size: 16px;
+    height: 40px;
+    text-align: center;
+    color: #3c3c3c;
+}
+.box2 .centerBox .end .inner .help div a{
+    display: inline-block;
+    margin-right: 5px;
+    text-decoration: none;
+    color: #999999;
+    line-height: 20px;
+    padding-left: 15px;
+}
+.box2 .centerBox .end .inner .help div a:hover{
+    color: #F40;
+}
+.box2 .centerBox .end .inner .help:after{
+    content: "";
+    clear: both;
+}
+.box2 .centerBox .end .inner .footer{
+    width: 1188px;
+    line-height: 27px;
+    border: none;
+}
+.box2 .centerBox .end .inner .footer .top{
+    width: 1188px;
+    height: 70px;
+    line-height: 70px;
+    border-bottom: 1px solid #dddddd;
+}
+.box2 .centerBox .end .inner .footer .top  li{
+    position: relative;
+    float: left;
+    height: 14px;
+    border-right: 1px solid #ddd;
+    margin: 10px 0 10px 0 ;
+}
+.box2 .centerBox .end .inner .footer .top  li a{
+    display:block;
+    height: 14px;
+    color: #6c6c6c;
+    text-decoration: none;
+    text-align: center;
+    line-height: 12px;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+.box2 .centerBox .end .inner .footer .top li a:hover{
+    color: #F40;
+}
+
+.box2 .centerBox .end .inner .footer-bd {
+    width: 1188px;
+    height: 32px;
+}
+.box2 .centerBox .end .inner .footer-bd  li{
+    position: relative;
+    float: left;
+    height: 14px;
+    margin: 10px 0 10px 0 ;
+}
+.box2 .centerBox .end .inner .footer-bd   li a{
+    display:block;
+    height: 14px;
+    color: #6c6c6c;
+    text-decoration: none;
+    text-align: center;
+    line-height: 12px;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+.box2 .centerBox .end .inner .footer-bd   li a b{
+    color: #ddd;
+}
+.box2 .centerBox .end .inner .footer-bd  li a:hover{
+    color: #F40;
+}
+.box2 .centerBox .end .inner .footer-bd   li.em{
+    color: #9c9c9c;
+    margin-top: 5px;
+}
+
+.box2 .centerBox .end .inner .footer .person{
+    width: 1200px;
+    height: 26px;
+}
+
+.box2 .centerBox .end .inner .footer .person span{
+    display:inline-block;
+}
+.box2 .centerBox .end .inner .footer .person b{
+    color: #ddd;
+}
+.box2 .centerBox .end .inner .footer .person span a{
+    display: inline-block;
+    text-decoration: none;
+    color: #6c6c6c;
+}
+.box2 .centerBox .end .inner .footer .person span a:hover{
+    color: #F40;
+}
+.box2 .centerBox .end .inner .person:after {
+    content: "";
+    clear: both;
+}
+.box2 .centerBox .end .inner .footer-ft{
+    width: 1188px;
+    height: 40px;
+    /*border: 1px solid red;*/
+    margin-bottom: 40px;
+}
+.box2 .centerBox .end .inner .footer-ft span{
+    display: inline-block;
+}
+.box2 .centerBox .end .inner .footer-ft a{
+    margin:0 10px;
+    display:block;
+    height: 40px;
+    background: url("../images/alist.jpg")no-repeat;
+
+}
+.box2 .centerBox .end .inner .footer-ft .a1{
+    width:36px;
+    background: url("../images/a1.gif")no-repeat;
+}
+.box2 .centerBox .end .inner .footer-ft .a2 {
+     width: 30px;
+     background-position: 0 0;
+ }
+.box2 .centerBox .end .inner .footer-ft .a3 {
+    width: 33px;
+    background-position: -40px  0;
+}
+.box2 .centerBox .end .inner .footer-ft .a4 {
+    width: 50px;
+    background-position:  -80px 0;
+}
+.box2 .centerBox .end .inner .footer-ft .a5 {
+    width: 50px;
+    background-position: -140px 0 ;
+}
+.box2 .centerBox .end .inner .footer-ft .a6 {
+    width: 94px;
+    background-position:-240px 0;
+}
+.box2 .centerBox .end .inner .footer-ft .a7 {
+    width: 214px;
+    background-position: -431px 0;
+}
+.box2 .centerBox .end .inner .footer-ft .a8 {
+    width: 105px;
+    background-position: -650px 0;
+}
+.box2 .centerBox .end .inner .footer-ft .a9 {
+    width: 82px;
+    background-position: -345px 0;
+}
+.box2 .centerBox .end:after{
+    content: "";
+    clear: both;
+}
